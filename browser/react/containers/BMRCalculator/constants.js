@@ -1,0 +1,4 @@
+export const SAVE_BMR_CALORIES = 'app/BMRCalories/SAVE_BMR_CALORIES';
+export const RECEIVE_MEASUREMENTS = 'app/BMRCalories/RECEIVE_MEASUREMENTS';
+export const SAVE_MEASUREMENTS = 'app/BMRCalories/SAVE_MEASUREMENTS';
+export const UPDATE_WEIGHT = 'app/BMRCalories/UPDATE_WEIGHT';

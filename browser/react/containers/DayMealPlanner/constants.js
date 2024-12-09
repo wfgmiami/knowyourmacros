@@ -1,0 +1,9 @@
+export const HANDLE_ADD_DAY = 'app/DayMealPlanner/HANDLE_ADD_DAY';
+export const ADD_DAY = 'app/DayMealPlanner/ADD_DAY';
+export const ADD_DAY_SUCCESS = 'app/DayMealPlanner/ADD_DAY_SUCCESS';
+export const FETCHING_DAY_MEAL_PLAN = 'app/DayMealPlanner/FETCHING_DAY_MEAL_PLAN';
+export const RECALCULATE_DAY = 'app/DayMealPlanner/RECALCULATE_DAY';
+export const RECALCULATE_DAY_SUCCESS = 'app/DayMealPlanner/RECALCULATE_DAY_SUCCESS';
+export const RECEIVE_LIST_ITEMS = 'app/DayMealPlanner/RECEIVE_LIST_ITEMS';
+export const REMOVE_DAY = 'app/DayMealPlanner/REMOVE_DAY';
+export const DAY_ADDED = 'app/DayMealPlanner/DAY_ADDED';

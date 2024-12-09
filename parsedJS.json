@@ -1,0 +1,1777 @@
+{
+  "/esdoc-types/abbrevType.js": {
+    "imports": [],
+    "namedExports": [],
+    "defaultExport": null
+  },
+  "/esdoc-types/foodDescType.js": {
+    "imports": [],
+    "namedExports": [],
+    "defaultExport": null
+  },
+  "/esdoc-types/foodGroupType.js": {
+    "imports": [],
+    "namedExports": [],
+    "defaultExport": null
+  },
+  "/esdoc-types/foodrecordType.js": {
+    "imports": [],
+    "namedExports": [],
+    "defaultExport": null
+  },
+  "/esdoc-types/mealGoalType.js": {
+    "imports": [],
+    "namedExports": [],
+    "defaultExport": null
+  },
+  "/esdoc-types/mealType.js": {
+    "imports": [],
+    "namedExports": [],
+    "defaultExport": null
+  },
+  "/esdoc-types/programType.js": {
+    "imports": [],
+    "namedExports": [],
+    "defaultExport": null
+  },
+  "/esdoc-types/userMeasurementType.js": {
+    "imports": [],
+    "namedExports": [],
+    "defaultExport": null
+  },
+  "/esdoc-types/userType.js": {
+    "imports": [],
+    "namedExports": [],
+    "defaultExport": null
+  },
+  "/esdoc-types/weightType.js": {
+    "imports": [],
+    "namedExports": [],
+    "defaultExport": null
+  },
+  "/react/Main.js": {
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "usedBy": ["/react/routes.js"]
+    }
+  },
+  "/react/colorCSS.js": {
+    "namedExports": [{
+      "type": "ExportNamedDeclaration",
+      "name": "active",
+      "usedBy": ["/react/components/Nav/index.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "name": "fixed",
+      "usedBy": ["/react/components/FormComponents/index.js", "/react/components/Label/index.js", "/react/components/Nav/index.js", "/react/components/Panel/styled.js", "/react/components/Th/index.js", "/react/components/Well/index.js"]
+    }],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "usedBy": ["/react/components/Button/index.js", "/react/components/Nav/index.js"]
+    }
+  },
+  "/react/components/A/index.js": {
+    "imports": [],
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "name": "A",
+      "usedBy": []
+    }
+  },
+  "/react/components/Badge/index.js": {
+    "imports": [],
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "name": "Badge",
+      "usedBy": ["/react/components/ListGroup/index.js", "/react/containers/MealPlanner/components/FoodsList.js", "/react/containers/MealPlanner/components/RetainedFoodsList.js"]
+    }
+  },
+  "/react/components/Button/index.js": {
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "name": "Button",
+      "usedBy": ["/react/components/ModalCoverage/index.js", "/react/containers/BMRCalculator/UpdateWeight.js", "/react/containers/BMRCalculator/components/MeasurementsForm/index.js", "/react/containers/ChangeDay/index.js", "/react/containers/Database/containers/Add/containers/Macronutrients/index.js", "/react/containers/Database/containers/Add/containers/NameGroup/index.js", "/react/containers/Database/containers/Add/containers/Serving/index.js", "/react/containers/FoodRecord/components/Header.js", "/react/containers/FoodRecord/components/SelectFood.js", "/react/containers/FoodRecord/containers/ModifyRecordForm.js", "/react/containers/FoodRecord/containers/SelectFood.js", "/react/containers/FrontPage/InputsSection.js", "/react/containers/Home/WeightChart.js", "/react/containers/Login/containers/LoginForm/index.js", "/react/containers/MealPlanner/components/AddToMeals.js", "/react/containers/MealPlanner/components/FoodsList.js", "/react/containers/MealPlanner/components/RetainedFoodsList.js", "/react/containers/MealPlanner/containers/GoalForm.js", "/react/containers/PublicMeals/index.js", "/react/containers/SetGoals/index.js", "/react/containers/ShoppingList/AddDay.js", "/react/containers/ShoppingList/Day.js", "/react/containers/ShoppingList/index.js", "/react/containers/Signup/containers/SignupForm/index.js"]
+    }
+  },
+  "/react/components/Container/index.js": {
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "name": "Container",
+      "usedBy": ["/react/containers/Database/containers/Add/containers/Macronutrients/index.js", "/react/containers/Database/containers/Add/containers/NameGroup/index.js", "/react/containers/Database/containers/Add/containers/Serving/index.js", "/react/containers/Database/containers/Add/index.js", "/react/containers/Database/containers/MyFoods/index.js", "/react/containers/Database/index.js", "/react/containers/FrontPage/AboutSection.js", "/react/containers/FrontPage/InputsSection.js", "/react/containers/Home/MainDash.js", "/react/containers/List/index.js", "/react/containers/MealPlanner/index.js", "/react/containers/PublicMeals/index.js", "/react/containers/SetGoals/index.js", "/react/containers/ShoppingList/index.js"]
+    }
+  },
+  "/react/components/FeedbackInput/index.js": {
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "name": "FeedbackInput",
+      "usedBy": []
+    }
+  },
+  "/react/components/FlexWrapper/index.js": {
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "name": "FlexWrapper",
+      "usedBy": ["/react/containers/BMRCalculator/components/MeasurementsForm/index.js", "/react/containers/ChangeDay/index.js", "/react/containers/Database/containers/Add/components/Serving.js", "/react/containers/DayMacroSummary/styled.js", "/react/containers/FoodRecord/components/FoodListItem.js", "/react/containers/FoodRecord/components/Header.js", "/react/containers/FoodRecord/components/SelectFood.js", "/react/containers/FoodRecord/components/styled.js", "/react/containers/FoodRecord/containers/SelectFood.js", "/react/containers/FoodRecord/containers/styled.js", "/react/containers/FoodRecord/index.js", "/react/containers/FrontPage/InputsSection.js", "/react/containers/Home/MainDash.js", "/react/containers/Home/WeightChart.js", "/react/containers/MealPlanner/components/AddToMeals.js", "/react/containers/MealPlanner/containers/GoalForm.js", "/react/containers/Nav/index.js", "/react/containers/PublicMeals/index.js", "/react/containers/SetGoals/index.js", "/react/containers/ShoppingList/Day.js", "/react/containers/ShoppingList/index.js", "/react/containers/ShoppingList/styled.js", "/react/containers/Signup/containers/SignupForm/index.js"]
+    }
+  },
+  "/react/components/FormComponents/Field.js": {
+    "imports": [],
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "name": "Field",
+      "usedBy": []
+    }
+  },
+  "/react/components/FormComponents/index.js": {
+    "namedExports": [{
+      "type": "ExportNamedDeclaration",
+      "name": "Input",
+      "usedBy": ["/react/components/FeedbackInput/index.js", "/react/containers/BMRCalculator/UpdateWeight.js", "/react/containers/BMRCalculator/components/MeasurementsForm/index.js", "/react/containers/BMRCalculator/components/MeasurementsForm/styled.js", "/react/containers/BMRCalculator/index.js", "/react/containers/Database/containers/Add/components/ItemDescription.js", "/react/containers/Database/containers/Add/components/Serving.js", "/react/containers/Database/containers/Add/containers/Macronutrients/Macronutrient.js", "/react/containers/Database/containers/Add/containers/Macronutrients/index.js", "/react/containers/Database/containers/Add/containers/NameGroup/index.js", "/react/containers/Database/containers/Add/containers/Serving/index.js", "/react/containers/FoodRecord/components/SelectFood.js", "/react/containers/FoodRecord/containers/ModifyRecordForm.js", "/react/containers/FoodRecord/containers/SelectFood.js", "/react/containers/FrontPage/InputsSection.js", "/react/containers/Login/containers/LoginForm/index.js", "/react/containers/MealPlanner/containers/GoalForm.js", "/react/containers/MealPlanner/containers/SearchForm.js", "/react/containers/PublicMeals/index.js", "/react/containers/SetGoals/index.js", "/react/containers/Signup/containers/SignupForm/index.js", "/react/containers/Signup/containers/SignupForm/styled.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "name": "Select",
+      "usedBy": ["/react/components/OptionGroup/index.js", "/react/containers/BMRCalculator/index.js", "/react/containers/Database/containers/Add/containers/NameGroup/index.js", "/react/containers/FoodRecord/components/SelectFood.js", "/react/containers/FoodRecord/containers/ModifyRecordForm.js", "/react/containers/MealPlanner/components/AddToMeals.js", "/react/containers/SetGoals/index.js", "/react/containers/ShoppingList/Day.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "name": "Label",
+      "usedBy": ["/react/containers/BMRCalculator/components/MeasurementsForm/index.js", "/react/containers/BMRCalculator/index.js", "/react/containers/Database/containers/Add/components/ItemDescription.js", "/react/containers/Database/containers/Add/components/Serving.js", "/react/containers/Database/containers/Add/containers/Macronutrients/Macronutrient.js", "/react/containers/Database/containers/Add/containers/Macronutrients/index.js", "/react/containers/Database/containers/Add/containers/NameGroup/index.js", "/react/containers/Database/containers/Add/containers/Serving/index.js", "/react/containers/MealPlanner/containers/GoalForm.js", "/react/containers/SetGoals/index.js", "/react/containers/Signup/containers/SignupForm/index.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "name": "InputGroup",
+      "usedBy": ["/react/containers/BMRCalculator/UpdateWeight.js", "/react/containers/FoodRecord/components/SelectFood.js", "/react/containers/FoodRecord/containers/SelectFood.js", "/react/containers/ShoppingList/Day.js"]
+    }],
+    "defaultExport": null
+  },
+  "/react/components/H1/index.js": {
+    "imports": [],
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "name": "H1",
+      "usedBy": []
+    }
+  },
+  "/react/components/H2/index.js": {
+    "imports": [],
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "name": "H2",
+      "usedBy": []
+    }
+  },
+  "/react/components/H3/index.js": {
+    "imports": [],
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "name": "H3",
+      "usedBy": ["/react/containers/Database/containers/Add/containers/NameGroup/index.js", "/react/containers/Database/containers/MyFoods/index.js", "/react/containers/Database/index.js", "/react/containers/ShoppingList/Day.js"]
+    }
+  },
+  "/react/components/HeightCollapse/index.js": {
+    "imports": [],
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "name": "HeightCollapse",
+      "usedBy": ["/react/containers/BMRCalculator/UpdateWeight.js", "/react/containers/FoodRecord/components/FoodListItem.js"]
+    }
+  },
+  "/react/components/Icon/index.js": {
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "name": "Icon",
+      "usedBy": ["/react/containers/Database/containers/MyFoods/index.js", "/react/containers/FoodRecord/components/FoodListItem.js", "/react/containers/FoodRecord/components/Header.js", "/react/containers/FoodRecord/components/SelectFood.js", "/react/containers/FoodRecord/containers/SelectFood.js", "/react/containers/FrontPage/NavFrontPage.js", "/react/containers/Home/WeightChart.js", "/react/containers/Nav/index.js", "/react/containers/ShoppingList/AddDay.js", "/react/containers/ShoppingList/Day.js"]
+    }
+  },
+  "/react/components/Img/index.js": {
+    "imports": [],
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "name": "Img",
+      "usedBy": []
+    }
+  },
+  "/react/components/IssueIcon/index.js": {
+    "imports": [],
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "name": "IssueIcon",
+      "usedBy": []
+    }
+  },
+  "/react/components/Label/index.js": {
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "name": "Label",
+      "usedBy": ["/react/containers/FoodRecord/components/FoodListItem.js", "/react/containers/ShoppingList/Day.js"]
+    }
+  },
+  "/react/components/ListGroup/index.js": {
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "name": "ListGroup",
+      "usedBy": ["/react/containers/FoodRecord/components/FoodList.js", "/react/containers/FoodRecord/containers/SelectFood.js", "/react/containers/List/index.js", "/react/containers/MealPlanner/components/FoodsList.js", "/react/containers/MealPlanner/components/RetainedFoodsList.js", "/react/containers/ShoppingList/Day.js"]
+    }
+  },
+  "/react/components/ListItem/Item.js": {
+    "imports": [],
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "name": "Item",
+      "usedBy": ["/react/components/ListItem/index.js"]
+    }
+  },
+  "/react/components/ListItem/Wrapper.js": {
+    "imports": [],
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "name": "Wrapper",
+      "usedBy": ["/react/components/ListItem/index.js"]
+    }
+  },
+  "/react/components/ListItem/index.js": {
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "name": "ListItem",
+      "usedBy": []
+    }
+  },
+  "/react/components/LoadingIndicator/Circle.js": {
+    "imports": [],
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "name": "Circle",
+      "usedBy": ["/react/components/LoadingIndicator/index.js"]
+    }
+  },
+  "/react/components/LoadingIndicator/Wrapper.js": {
+    "imports": [],
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "name": "Wrapper",
+      "usedBy": ["/react/components/LoadingIndicator/index.js"]
+    }
+  },
+  "/react/components/LoadingIndicator/index.js": {
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "name": "LoadingIndicator",
+      "usedBy": []
+    }
+  },
+  "/react/components/ModalCoverage/index.js": {
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "name": "ModalCoverage",
+      "usedBy": ["/react/containers/FrontPage/NavFrontPage.js"]
+    }
+  },
+  "/react/components/ModalCoverage/styled.js": {
+    "imports": [],
+    "namedExports": [{
+      "type": "ExportNamedDeclaration",
+      "name": "Overlay",
+      "usedBy": ["/react/components/ModalCoverage/index.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "name": "ModalContent",
+      "usedBy": ["/react/components/ModalCoverage/index.js"]
+    }],
+    "defaultExport": null
+  },
+  "/react/components/Nav/index.js": {
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "name": "Nav",
+      "usedBy": ["/react/containers/FrontPage/NavFrontPage.js", "/react/containers/Nav/index.js"]
+    }
+  },
+  "/react/components/OptionGroup/index.js": {
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "name": "OptionGroup",
+      "usedBy": ["/react/containers/BMRCalculator/components/MeasurementsForm/index.js", "/react/containers/FrontPage/InputsSection.js", "/react/containers/SetGoals/index.js", "/react/containers/Signup/containers/SignupForm/index.js", "/react/containers/Signup/containers/SignupForm/styled.js"]
+    }
+  },
+  "/react/components/Panel/index.js": {
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "name": "Panel",
+      "usedBy": ["/react/containers/Home/MainDash.js", "/react/containers/PublicMeals/index.js"]
+    }
+  },
+  "/react/components/Panel/styled.js": {
+    "namedExports": [{
+      "type": "ExportNamedDeclaration",
+      "name": "Wrapper",
+      "usedBy": ["/react/components/Panel/index.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "name": "Heading",
+      "usedBy": ["/react/components/Panel/index.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "name": "Body",
+      "usedBy": ["/react/components/Panel/index.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "name": "Footer",
+      "usedBy": ["/react/components/Panel/index.js"]
+    }],
+    "defaultExport": null
+  },
+  "/react/components/Radio/index.js": {
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "name": "Radio",
+      "usedBy": ["/react/containers/BMRCalculator/components/MeasurementsForm/index.js"]
+    }
+  },
+  "/react/components/Radio/styled.js": {
+    "imports": [],
+    "namedExports": [{
+      "type": "ExportNamedDeclaration",
+      "name": "HiddenInput",
+      "usedBy": ["/react/components/Radio/index.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "name": "CheckBox",
+      "usedBy": ["/react/components/Radio/index.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "name": "Label",
+      "usedBy": ["/react/components/Radio/index.js"]
+    }],
+    "defaultExport": null
+  },
+  "/react/components/Th/index.js": {
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "name": "Th",
+      "usedBy": ["/react/containers/Database/containers/MyFoods/index.js", "/react/containers/MealPlanner/components/ReportTable.js", "/react/containers/SetGoals/components/GoalsReport.js"]
+    }
+  },
+  "/react/components/Well/index.js": {
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "name": "Well",
+      "usedBy": ["/react/containers/Database/containers/Add/containers/Macronutrients/index.js", "/react/containers/Database/containers/Add/containers/NameGroup/index.js", "/react/containers/Database/containers/Add/containers/Serving/index.js", "/react/containers/FoodRecord/components/RecordList.js", "/react/containers/FrontPage/AboutSection.js", "/react/containers/FrontPage/InputsSection.js", "/react/containers/MealPlanner/components/FoodsList.js", "/react/containers/MealPlanner/components/RetainedFoodsList.js", "/react/containers/MealPlanner/index.js", "/react/containers/SetGoals/index.js", "/react/containers/ShoppingList/index.js"]
+    }
+  },
+  "/react/components/WidthCollapse/index.js": {
+    "imports": [],
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "name": "WidthCollapse",
+      "usedBy": []
+    }
+  },
+  "/react/containers/BMRCalculator/UpdateWeight.js": {
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "usedBy": ["/react/containers/Home/WeightChart.js"]
+    }
+  },
+  "/react/containers/BMRCalculator/components/MeasurementsForm/index.js": {
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "name": "MeasurementForm",
+      "usedBy": ["/react/containers/BMRCalculator/index.js"]
+    }
+  },
+  "/react/containers/BMRCalculator/components/MeasurementsForm/styled.js": {
+    "namedExports": [{
+      "type": "ExportNamedDeclaration",
+      "name": "MarginTop",
+      "usedBy": ["/react/containers/BMRCalculator/components/MeasurementsForm/index.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "name": "Radio",
+      "usedBy": []
+    }, {
+      "type": "ExportNamedDeclaration",
+      "name": "RadioLabel",
+      "usedBy": []
+    }],
+    "defaultExport": null
+  },
+  "/react/containers/BMRCalculator/dispatch.js": {
+    "namedExports": [{
+      "type": "ExportNamedDeclaration",
+      "name": "saveMeasurements",
+      "usedBy": ["/react/containers/BMRCalculator/index.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "name": "bmrCalories",
+      "usedBy": ["/react/containers/BMRCalculator/index.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "name": "updateWeight",
+      "usedBy": ["/react/containers/BMRCalculator/UpdateWeight.js"]
+    }],
+    "defaultExport": null
+  },
+  "/react/containers/BMRCalculator/index.js": {
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "usedBy": ["/react/containers/Home/index.js", "/react/containers/SetGoals/index.js"]
+    }
+  },
+  "/react/containers/BMRCalculator/utils.js": {
+    "imports": [],
+    "namedExports": [{
+      "type": "ExportNamedDeclaration",
+      "name": "lifeStyle",
+      "usedBy": ["/react/containers/BMRCalculator/index.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "name": "invertLifeStyle",
+      "usedBy": ["/react/containers/BMRCalculator/index.js"]
+    }],
+    "defaultExport": null
+  },
+  "/react/containers/ChangeDay/dispatch.js": {
+    "namedExports": [{
+      "type": "ExportNamedDeclaration",
+      "name": "changeDay",
+      "usedBy": ["/react/containers/ChangeDay/index.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "name": "nextDayClick",
+      "usedBy": ["/react/containers/ChangeDay/index.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "name": "previousDayClick",
+      "usedBy": ["/react/containers/ChangeDay/index.js"]
+    }],
+    "defaultExport": null
+  },
+  "/react/containers/ChangeDay/index.js": {
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "usedBy": ["/react/containers/FoodRecord/index.js", "/react/containers/Home/MainDash.js", "/react/containers/MealPlanner/components/ReportTable.js", "/react/containers/ShoppingList/index.js"]
+    }
+  },
+  "/react/containers/Database/constants.js": {
+    "imports": [],
+    "namedExports": [{
+      "type": "ExportNamedDeclaration",
+      "name": "ADD_NAME_GROUP",
+      "usedBy": ["/react/containers/Database/dispatch.js", "/redux/reducers/database.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "name": "ADD_NAME_GROUP_SUCCESS",
+      "usedBy": ["/react/containers/Database/dispatch.js", "/redux/reducers/database.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "name": "ADD_NAME_GROUP_FAIL",
+      "usedBy": ["/react/containers/Database/dispatch.js", "/redux/reducers/database.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "name": "ADD_SERVING",
+      "usedBy": ["/react/containers/Database/dispatch.js", "/redux/reducers/database.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "name": "ADD_SERVING_SUCCESS",
+      "usedBy": ["/react/containers/Database/dispatch.js", "/redux/reducers/database.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "name": "ADD_SERVING_FAIL",
+      "usedBy": ["/react/containers/Database/dispatch.js", "/redux/reducers/database.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "name": "SUBMIT_NEW_FOOD",
+      "usedBy": ["/react/containers/Database/dispatch.js", "/redux/reducers/database.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "name": "SUBMIT_NEW_FOOD_SUCCESS",
+      "usedBy": ["/react/containers/Database/dispatch.js", "/redux/reducers/database.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "name": "SUBMIT_NEW_FOOD_FAIL",
+      "usedBy": ["/react/containers/Database/dispatch.js", "/redux/reducers/database.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "name": "GET_USER_CREATED",
+      "usedBy": ["/react/containers/Database/dispatch.js", "/redux/reducers/database.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "name": "GET_USER_CREATED_SUCCESS",
+      "usedBy": ["/react/containers/Database/dispatch.js", "/redux/reducers/database.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "name": "GET_USER_CREATED_FAIL",
+      "usedBy": ["/react/containers/Database/dispatch.js", "/redux/reducers/database.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "name": "DELETE_USER_CREATED",
+      "usedBy": ["/react/containers/Database/dispatch.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "name": "DELETE_USER_CREATED_SUCCESS",
+      "usedBy": ["/react/containers/Database/dispatch.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "name": "DELETE_USER_CREATED_FAIL",
+      "usedBy": ["/react/containers/Database/dispatch.js"]
+    }],
+    "defaultExport": null
+  },
+  "/react/containers/Database/containers/Add/components/ItemDescription.js": {
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "name": "ItemDescription",
+      "usedBy": []
+    }
+  },
+  "/react/containers/Database/containers/Add/components/Macronutrients.js": {
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "name": "Macronutrients",
+      "usedBy": []
+    }
+  },
+  "/react/containers/Database/containers/Add/components/Serving.js": {
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "name": "Serving",
+      "usedBy": []
+    }
+  },
+  "/react/containers/Database/containers/Add/containers/Macronutrients/Macronutrient.js": {
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "name": "Macronutrient",
+      "usedBy": []
+    }
+  },
+  "/react/containers/Database/containers/Add/containers/Macronutrients/index.js": {
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "usedBy": ["/react/containers/Database/containers/Add/containers/Macronutrients/routes.js"]
+    }
+  },
+  "/react/containers/Database/containers/Add/containers/Macronutrients/routes.js": {
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "name": "routes",
+      "usedBy": ["/react/containers/Database/containers/Add/routes.js"]
+    }
+  },
+  "/react/containers/Database/containers/Add/containers/NameGroup/index.js": {
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "usedBy": ["/react/containers/Database/containers/Add/index.js"]
+    }
+  },
+  "/react/containers/Database/containers/Add/containers/Serving/index.js": {
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "usedBy": ["/react/containers/Database/containers/Add/containers/Serving/routes.js"]
+    }
+  },
+  "/react/containers/Database/containers/Add/containers/Serving/routes.js": {
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "name": "routes",
+      "usedBy": ["/react/containers/Database/containers/Add/routes.js"]
+    }
+  },
+  "/react/containers/Database/containers/Add/containers/styled.js": {
+    "imports": [],
+    "namedExports": [{
+      "type": "ExportNamedDeclaration",
+      "name": "LeftWrapper",
+      "usedBy": []
+    }, {
+      "type": "ExportNamedDeclaration",
+      "name": "RightWrapper",
+      "usedBy": []
+    }],
+    "defaultExport": null
+  },
+  "/react/containers/Database/containers/Add/index.js": {
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "name": "Database",
+      "usedBy": ["/react/containers/Database/containers/Add/routes.js"]
+    }
+  },
+  "/react/containers/Database/containers/Add/routes.js": {
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "name": "routes",
+      "usedBy": ["/react/containers/Database/routes.js"]
+    }
+  },
+  "/react/containers/Database/containers/MyFoods/index.js": {
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "usedBy": ["/react/containers/Database/containers/MyFoods/routes.js"]
+    }
+  },
+  "/react/containers/Database/containers/MyFoods/routes.js": {
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "name": "routes",
+      "usedBy": ["/react/containers/Database/routes.js"]
+    }
+  },
+  "/react/containers/Database/dispatch.js": {
+    "namedExports": [{
+      "type": "ExportNamedDeclaration",
+      "name": "submitNameGroup",
+      "usedBy": ["/react/containers/Database/containers/Add/containers/NameGroup/index.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "name": "submitServing",
+      "usedBy": ["/react/containers/Database/containers/Add/containers/Serving/index.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "name": "submitMacronutrients",
+      "usedBy": ["/react/containers/Database/containers/Add/containers/Macronutrients/index.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "name": "getUserCreatedFoods",
+      "usedBy": ["/react/containers/Database/containers/MyFoods/index.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "name": "deleteUserCreatedFoods",
+      "usedBy": ["/react/containers/Database/containers/MyFoods/index.js"]
+    }],
+    "defaultExport": null
+  },
+  "/react/containers/Database/index.js": {
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "name": "Database",
+      "usedBy": ["/react/containers/Database/routes.js"]
+    }
+  },
+  "/react/containers/Database/routes.js": {
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "name": "routes",
+      "usedBy": ["/react/routes.js"]
+    }
+  },
+  "/react/containers/DayMacroSummary/index.js": {
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "usedBy": ["/react/containers/FoodRecord/index.js", "/react/containers/Home/MainDash.js"]
+    }
+  },
+  "/react/containers/DayMacroSummary/styled.js": {
+    "namedExports": [{
+      "type": "ExportNamedDeclaration",
+      "name": "Wrapper",
+      "usedBy": ["/react/containers/DayMacroSummary/index.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "name": "Left",
+      "usedBy": ["/react/containers/DayMacroSummary/index.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "name": "Right",
+      "usedBy": ["/react/containers/DayMacroSummary/index.js"]
+    }],
+    "defaultExport": null
+  },
+  "/react/containers/FoodRecord/components/FoodList.js": {
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "name": "FoodList",
+      "usedBy": ["/react/containers/FoodRecord/components/RecordList.js"]
+    }
+  },
+  "/react/containers/FoodRecord/components/FoodListItem.js": {
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "usedBy": ["/react/containers/FoodRecord/components/FoodList.js"]
+    }
+  },
+  "/react/containers/FoodRecord/components/Header.js": {
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "usedBy": ["/react/containers/FoodRecord/components/RecordList.js"]
+    }
+  },
+  "/react/containers/FoodRecord/components/RecordList.js": {
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "usedBy": ["/react/containers/Home/MainDash.js"]
+    }
+  },
+  "/react/containers/FoodRecord/components/SelectFood.js": {
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "usedBy": ["/react/containers/FoodRecord/containers/SelectFood.js"]
+    }
+  },
+  "/react/containers/FoodRecord/components/styled.js": {
+    "namedExports": [{
+      "type": "ExportNamedDeclaration",
+      "name": "FlexW",
+      "usedBy": ["/react/containers/FoodRecord/components/FoodList.js", "/react/containers/FoodRecord/components/FoodListItem.js"]
+    }],
+    "defaultExport": null
+  },
+  "/react/containers/FoodRecord/containers/AddRecord.js": {
+    "imports": [],
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "name": "AddRecordContainer",
+      "usedBy": []
+    }
+  },
+  "/react/containers/FoodRecord/containers/ModifyRecordForm.js": {
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "usedBy": ["/react/containers/FoodRecord/components/FoodListItem.js"]
+    }
+  },
+  "/react/containers/FoodRecord/containers/SelectFood.js": {
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "usedBy": ["/react/containers/FoodRecord/components/RecordList.js", "/react/containers/FoodRecord/index.js"]
+    }
+  },
+  "/react/containers/FoodRecord/containers/styled.js": {
+    "namedExports": [{
+      "type": "ExportNamedDeclaration",
+      "name": "FlexWrapper",
+      "usedBy": ["/react/containers/FoodRecord/containers/ModifyRecordForm.js"]
+    }],
+    "defaultExport": null
+  },
+  "/react/containers/FoodRecord/dispatch.js": {
+    "namedExports": [{
+      "type": "ExportNamedDeclaration",
+      "name": "fetchFoods",
+      "usedBy": ["/react/containers/FoodRecord/containers/SelectFood.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "name": "updateQuantity",
+      "usedBy": ["/react/containers/FoodRecord/containers/ModifyRecordForm.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "name": "calculateDayMacros",
+      "usedBy": ["/react/containers/DayMacroSummary/index.js", "/react/containers/FoodRecord/components/FoodList.js", "/react/containers/Home/MainDash.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "name": "destroyFoodRecord",
+      "usedBy": ["/react/containers/FoodRecord/components/FoodListItem.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "name": "confirmRecord",
+      "usedBy": ["/react/containers/FoodRecord/components/FoodListItem.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "name": "changeAddMeal",
+      "usedBy": ["/react/containers/FoodRecord/components/Header.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "name": "handleAddFoodRecord",
+      "usedBy": ["/react/containers/FoodRecord/components/SelectFood.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "name": "addFavorite",
+      "usedBy": ["/react/containers/FoodRecord/components/SelectFood.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "name": "removeFavorite",
+      "usedBy": ["/react/containers/FoodRecord/components/SelectFood.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "name": "fetchFoodRecord",
+      "usedBy": ["/react/containers/ChangeDay/dispatch.js", "/redux/store.js"]
+    }],
+    "defaultExport": null
+  },
+  "/react/containers/FoodRecord/index.js": {
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "usedBy": ["/react/containers/FoodRecord/routes.js"]
+    }
+  },
+  "/react/containers/FoodRecord/routes.js": {
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "name": "routes",
+      "usedBy": ["/react/routes.js"]
+    }
+  },
+  "/react/containers/FrontPage/AboutSection.js": {
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "name": "AboutSection",
+      "usedBy": ["/react/containers/FrontPage/index.js"]
+    }
+  },
+  "/react/containers/FrontPage/InputsSection.js": {
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "usedBy": ["/react/containers/FrontPage/index.js"]
+    }
+  },
+  "/react/containers/FrontPage/MealSection.js": {
+    "imports": [],
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "name": "MealSection",
+      "usedBy": ["/react/containers/FrontPage/InputsSection.js"]
+    }
+  },
+  "/react/containers/FrontPage/NavFrontPage.js": {
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "name": "Nav",
+      "usedBy": ["/react/containers/FrontPage/index.js"]
+    }
+  },
+  "/react/containers/FrontPage/NutrientsSection.js": {
+    "imports": [],
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "name": "NutrientsSection",
+      "usedBy": ["/react/containers/FrontPage/InputsSection.js"]
+    }
+  },
+  "/react/containers/FrontPage/index.js": {
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "name": "FrontPage",
+      "usedBy": ["/react/Main.js"]
+    }
+  },
+  "/react/containers/Home/MainDash.js": {
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "usedBy": ["/react/containers/Home/index.js"]
+    }
+  },
+  "/react/containers/Home/WeightChart.js": {
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "usedBy": ["/react/containers/Home/MainDash.js"]
+    }
+  },
+  "/react/containers/Home/_linedata.js": {
+    "imports": [],
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "name": "linedata",
+      "usedBy": ["/react/containers/Home/WeightChart.js"]
+    }
+  },
+  "/react/containers/Home/bardata.js": {
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "name": "bardata",
+      "usedBy": ["/react/containers/Home/MainDash.js"]
+    }
+  },
+  "/react/containers/Home/dispatch.js": {
+    "namedExports": [{
+      "type": "ExportNamedDeclaration",
+      "name": "getCalories",
+      "usedBy": ["/react/containers/ChangeDay/dispatch.js", "/react/containers/Home/MainDash.js", "/redux/store.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "name": "destroyMeasurement",
+      "usedBy": ["/react/containers/Home/WeightChart.js"]
+    }],
+    "defaultExport": null
+  },
+  "/react/containers/Home/index.js": {
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "usedBy": ["/react/containers/Home/routes.js"]
+    }
+  },
+  "/react/containers/Home/linedata.js": {
+    "imports": [],
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "name": "linedata",
+      "usedBy": []
+    }
+  },
+  "/react/containers/Home/routes.js": {
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "name": "routes",
+      "usedBy": ["/react/routes.js"]
+    }
+  },
+  "/react/containers/List/dispatch.js": {
+    "namedExports": [{
+      "type": "ExportNamedDeclaration",
+      "name": "getList",
+      "usedBy": ["/react/containers/List/index.js"]
+    }],
+    "defaultExport": null
+  },
+  "/react/containers/List/index.js": {
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "usedBy": ["/react/containers/List/routes.js"]
+    }
+  },
+  "/react/containers/List/list-logic.js": {
+    "imports": [],
+    "namedExports": [{
+      "type": "ExportNamedDeclaration",
+      "name": "makeList",
+      "usedBy": ["/react/containers/List/index.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "name": "convertWeight",
+      "usedBy": ["/react/containers/List/index.js"]
+    }],
+    "defaultExport": null
+  },
+  "/react/containers/List/routes.js": {
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "name": "routes",
+      "usedBy": ["/react/routes.js"]
+    }
+  },
+  "/react/containers/Login/containers/LoginForm/index.js": {
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "usedBy": ["/react/containers/FrontPage/NavFrontPage.js", "/react/containers/FrontPage/index.js"]
+    }
+  },
+  "/react/containers/Login/containers/LoginForm/styled.js": {
+    "imports": [],
+    "namedExports": [{
+      "type": "ExportNamedDeclaration",
+      "name": "MarginWrapper",
+      "usedBy": ["/react/containers/Login/containers/LoginForm/index.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "name": "Wrapper",
+      "usedBy": ["/react/containers/Login/containers/LoginForm/index.js"]
+    }],
+    "defaultExport": null
+  },
+  "/react/containers/Login/dispatch.js": {
+    "namedExports": [{
+      "type": "ExportNamedDeclaration",
+      "name": "exchangeTokenForUser",
+      "usedBy": ["/react/Main.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "name": "login",
+      "usedBy": ["/react/containers/Login/containers/LoginForm/index.js", "/react/containers/Signup/containers/SignupForm/index.js"]
+    }],
+    "defaultExport": null
+  },
+  "/react/containers/MacroGoalsReport/index.js": {
+    "imports": [],
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "usedBy": []
+    }
+  },
+  "/react/containers/MealCaloriesReport/index.js": {
+    "imports": [],
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "name": "MealCaloriesReport",
+      "usedBy": []
+    }
+  },
+  "/react/containers/MealPlanner/components/AddToMeals.js": {
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "usedBy": ["/react/containers/MealPlanner/components/ReportTable.js"]
+    }
+  },
+  "/react/containers/MealPlanner/components/FoodsList.js": {
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "usedBy": ["/react/containers/MealPlanner/index.js"]
+    }
+  },
+  "/react/containers/MealPlanner/components/ReportTable.js": {
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "usedBy": ["/react/containers/MealPlanner/index.js"]
+    }
+  },
+  "/react/containers/MealPlanner/components/RetainedFoodsList.js": {
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "usedBy": ["/react/containers/MealPlanner/index.js"]
+    }
+  },
+  "/react/containers/MealPlanner/containers/GoalForm.js": {
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "name": "GoalForm",
+      "usedBy": ["/react/containers/MealPlanner/index.js"]
+    }
+  },
+  "/react/containers/MealPlanner/containers/SearchForm.js": {
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "usedBy": ["/react/containers/MealPlanner/index.js"]
+    }
+  },
+  "/react/containers/MealPlanner/dispatch.js": {
+    "namedExports": [{
+      "type": "ExportNamedDeclaration",
+      "name": "searchFood",
+      "usedBy": ["/react/containers/MealPlanner/index.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "name": "retainFood",
+      "usedBy": ["/react/containers/MealPlanner/index.js", "/react/containers/PublicMeals/index.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "name": "removeFood",
+      "usedBy": ["/react/containers/MealPlanner/index.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "name": "addToSearchList",
+      "usedBy": ["/react/containers/MealPlanner/index.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "name": "calculateFood",
+      "usedBy": ["/react/containers/MealPlanner/index.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "name": "checkPossibility",
+      "usedBy": ["/react/containers/MealPlanner/index.js"]
+    }],
+    "defaultExport": null
+  },
+  "/react/containers/MealPlanner/index.js": {
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "usedBy": ["/react/containers/MealPlanner/routes.js"]
+    }
+  },
+  "/react/containers/MealPlanner/routes.js": {
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "name": "routes",
+      "usedBy": ["/react/routes.js"]
+    }
+  },
+  "/react/containers/MealPlanner/utils.js": {
+    "imports": [],
+    "namedExports": [{
+      "type": "ExportNamedDeclaration",
+      "name": "getFactors",
+      "usedBy": ["/react/containers/MealPlanner/dispatch.js"]
+    }],
+    "defaultExport": null
+  },
+  "/react/containers/Nav/components/LinkItem.js": {
+    "imports": [],
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "name": "LinkItem",
+      "usedBy": []
+    }
+  },
+  "/react/containers/Nav/dispatch.js": {
+    "namedExports": [{
+      "type": "ExportNamedDeclaration",
+      "name": "logout",
+      "usedBy": ["/react/containers/Nav/index.js"]
+    }],
+    "defaultExport": null
+  },
+  "/react/containers/Nav/index.js": {
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "usedBy": ["/react/Main.js"]
+    }
+  },
+  "/react/containers/PublicMeals/dispatch.js": {
+    "namedExports": [{
+      "type": "ExportNamedDeclaration",
+      "name": "getMeals",
+      "usedBy": ["/react/containers/PublicMeals/index.js"]
+    }],
+    "defaultExport": null
+  },
+  "/react/containers/PublicMeals/index.js": {
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "usedBy": ["/react/containers/PublicMeals/routes.js"]
+    }
+  },
+  "/react/containers/PublicMeals/routes.js": {
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "name": "routes",
+      "usedBy": ["/react/routes.js"]
+    }
+  },
+  "/react/containers/SetGoals/components/GoalsReport.js": {
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "name": "GoalsReport",
+      "usedBy": ["/react/containers/SetGoals/index.js"]
+    }
+  },
+  "/react/containers/SetGoals/dispatch.js": {
+    "namedExports": [{
+      "type": "ExportNamedDeclaration",
+      "name": "saveGoals",
+      "usedBy": ["/react/containers/SetGoals/index.js"]
+    }],
+    "defaultExport": null
+  },
+  "/react/containers/SetGoals/index.js": {
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "usedBy": ["/react/containers/SetGoals/routes.js"]
+    }
+  },
+  "/react/containers/SetGoals/routes.js": {
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "name": "routes",
+      "usedBy": ["/react/routes.js"]
+    }
+  },
+  "/react/containers/SetGoals/styled.js": {
+    "namedExports": [{
+      "type": "ExportNamedDeclaration",
+      "name": "LeftWrapper",
+      "usedBy": ["/react/containers/SetGoals/index.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "name": "RightWrapper",
+      "usedBy": ["/react/containers/SetGoals/index.js"]
+    }],
+    "defaultExport": null
+  },
+  "/react/containers/SetGoals/utils.js": {
+    "imports": [],
+    "namedExports": [{
+      "type": "ExportNamedDeclaration",
+      "name": "getGoals",
+      "usedBy": ["/react/containers/SetGoals/index.js"]
+    }],
+    "defaultExport": null
+  },
+  "/react/containers/ShoppingList/AddDay.js": {
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "usedBy": ["/react/containers/ShoppingList/Day.js"]
+    }
+  },
+  "/react/containers/ShoppingList/Day.js": {
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "usedBy": ["/react/containers/ShoppingList/index.js"]
+    }
+  },
+  "/react/containers/ShoppingList/dispatch.js": {
+    "namedExports": [{
+      "type": "ExportNamedDeclaration",
+      "name": "recalculateDay",
+      "usedBy": ["/react/containers/ShoppingList/Day.js", "/react/containers/ShoppingList/index.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "name": "removeDay",
+      "usedBy": ["/react/containers/ShoppingList/Day.js", "/react/containers/ShoppingList/index.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "name": "modWeight",
+      "usedBy": ["/redux/reducers/foodrecord.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "name": "handleAddDay",
+      "usedBy": ["/react/containers/ShoppingList/AddDay.js", "/react/containers/ShoppingList/index.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "name": "addDay",
+      "usedBy": ["/react/containers/ShoppingList/index.js"]
+    }],
+    "defaultExport": null
+  },
+  "/react/containers/ShoppingList/index.js": {
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "usedBy": ["/react/containers/ShoppingList/routes.js"]
+    }
+  },
+  "/react/containers/ShoppingList/routes.js": {
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "name": "routes",
+      "usedBy": ["/react/routes.js"]
+    }
+  },
+  "/react/containers/ShoppingList/styled.js": {
+    "namedExports": [{
+      "type": "ExportNamedDeclaration",
+      "name": "RowWrapper",
+      "usedBy": ["/react/containers/ShoppingList/Day.js"]
+    }],
+    "defaultExport": null
+  },
+  "/react/containers/Signup/containers/SignupForm/index.js": {
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "usedBy": ["/react/containers/FrontPage/NavFrontPage.js"]
+    }
+  },
+  "/react/containers/Signup/containers/SignupForm/styled.js": {
+    "namedExports": [{
+      "type": "ExportNamedDeclaration",
+      "name": "MarginWrapper",
+      "usedBy": ["/react/containers/Signup/containers/SignupForm/index.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "name": "FlexInput",
+      "usedBy": ["/react/containers/Signup/containers/SignupForm/index.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "name": "FlexOptGrp",
+      "usedBy": ["/react/containers/Signup/containers/SignupForm/index.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "name": "Wrapper",
+      "usedBy": ["/react/containers/Signup/containers/SignupForm/index.js"]
+    }],
+    "defaultExport": null
+  },
+  "/react/containers/Signup/index.js": {
+    "imports": [],
+    "namedExports": [],
+    "defaultExport": null
+  },
+  "/react/index.js": {
+    "namedExports": [],
+    "defaultExport": null
+  },
+  "/react/routes.js": {
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "name": "routes",
+      "usedBy": ["/react/index.js"]
+    }
+  },
+  "/react/theme/colors.js": {
+    "imports": [],
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "usedBy": ["/react/theme/index.js"]
+    }
+  },
+  "/react/theme/index.js": {
+    "namedExports": [{
+      "type": "ExportNamedDeclaration",
+      "name": "colors",
+      "usedBy": []
+    }],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "usedBy": ["/react/colorCSS.js", "/react/index.js"]
+    }
+  },
+  "/react/theme/media.js": {
+    "imports": [],
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "name": "media",
+      "usedBy": ["/react/components/Container/index.js", "/react/components/FlexWrapper/index.js", "/react/containers/FoodRecord/components/styled.js", "/react/containers/Home/MainDash.js", "/react/containers/Nav/index.js", "/react/containers/SetGoals/styled.js", "/react/containers/ShoppingList/styled.js"]
+    }
+  },
+  "/redux/constants.js": {
+    "imports": [],
+    "namedExports": [{
+      "type": "ExportNamedDeclaration",
+      "name": "ADD_MEAL",
+      "usedBy": ["/react/containers/FoodRecord/dispatch.js", "/redux/reducers/foodrecord.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "name": "CHANGE_DAY",
+      "usedBy": ["/react/containers/ChangeDay/dispatch.js", "/redux/reducers/root.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "name": "CONFIRM_RECORD",
+      "usedBy": ["/react/containers/FoodRecord/dispatch.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "name": "CONFIRM_RECORD_FAIL",
+      "usedBy": ["/react/containers/FoodRecord/dispatch.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "name": "CONFIRM_RECORD_SUCCESS",
+      "usedBy": ["/react/containers/FoodRecord/dispatch.js", "/redux/reducers/foodrecord.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "name": "DISPLAY_MODAL",
+      "usedBy": ["/react/containers/FoodRecord/dispatch.js", "/redux/reducers/foodrecord.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "name": "HIDE_MODAL",
+      "usedBy": ["/react/containers/FoodRecord/containers/SelectFood.js", "/redux/reducers/foodrecord.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "name": "RECEIVE_CALORIES",
+      "usedBy": ["/redux/reducers/foodrecord.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "name": "GET_CALORIES_MULTI",
+      "usedBy": ["/react/containers/Home/dispatch.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "name": "GET_CALORIES_MULTI_SUCCESS",
+      "usedBy": ["/react/containers/Home/dispatch.js", "/redux/reducers/foodrecord.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "name": "SEARCH_FOOD",
+      "usedBy": ["/react/containers/FoodRecord/dispatch.js", "/redux/reducers/foodrecord.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "name": "SEARCH_FOOD_SUCCESS",
+      "usedBy": ["/react/containers/FoodRecord/dispatch.js", "/redux/reducers/foodrecord.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "name": "RECEIVE_FOOD_RECORD_ITEM",
+      "usedBy": ["/react/containers/FoodRecord/dispatch.js", "/react/containers/ShoppingList/dispatch.js", "/redux/reducers/foodrecord.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "name": "RECEIVE_FOOD_RECORD_LIST",
+      "usedBy": ["/react/containers/FoodRecord/dispatch.js", "/redux/reducers/foodrecord.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "name": "RECEIVE_PROGRAMS",
+      "usedBy": ["/redux/reducers/home.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "name": "RECEIVE_USER",
+      "usedBy": ["/redux/reducers/home.js", "/redux/reducers/user.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "name": "REMOVE_FOOD_RECORD_ITEM",
+      "usedBy": ["/react/containers/FoodRecord/dispatch.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "name": "REMOVE_FOOD_RECORD_ITEM_SUCCESS",
+      "usedBy": ["/react/containers/FoodRecord/dispatch.js", "/redux/reducers/foodrecord.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "name": "UPDATE_RECORD",
+      "usedBy": ["/redux/reducers/foodrecord.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "name": "UPDATE_RECORD_QUANTITY",
+      "usedBy": ["/react/containers/FoodRecord/dispatch.js", "/redux/reducers/foodrecord.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "name": "INVALID_LOGIN",
+      "usedBy": ["/react/containers/Login/dispatch.js", "/redux/reducers/root.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "name": "LOGIN",
+      "usedBy": ["/react/containers/Login/dispatch.js", "/redux/reducers/user.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "name": "LOGIN_SUCCESS",
+      "usedBy": ["/react/containers/Login/dispatch.js", "/redux/reducers/user.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "name": "LOGOUT_SUCCESS",
+      "usedBy": ["/react/containers/Nav/dispatch.js", "/redux/reducers/root.js", "/redux/reducers/user.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "name": "ADD_TO_SEARCH_LIST",
+      "usedBy": ["/react/containers/MealPlanner/dispatch.js", "/redux/reducers/mealplanner.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "name": "CALCULATE_MEAL_ERROR",
+      "usedBy": ["/redux/reducers/fpdietgenerator.js", "/redux/reducers/mealplanner.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "name": "CALCULATE_MEAL_SUCCESS",
+      "usedBy": ["/react/containers/MealPlanner/dispatch.js", "/redux/reducers/fpdietgenerator.js", "/redux/reducers/mealplanner.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "name": "LOAD_SEARCHED_FOODS",
+      "usedBy": ["/redux/reducers/mealplanner.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "name": "RETAIN_FOOD",
+      "usedBy": ["/react/containers/MealPlanner/dispatch.js", "/redux/reducers/mealplanner.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "name": "REMOVE_FOOD",
+      "usedBy": ["/react/containers/MealPlanner/dispatch.js", "/redux/reducers/mealplanner.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "name": "SET_MEAL_FAVORITES",
+      "usedBy": ["/react/containers/Login/dispatch.js", "/redux/reducers/foodrecord.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "name": "UPDATE_FAVORITES",
+      "usedBy": ["/react/containers/FoodRecord/dispatch.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "name": "UPDATE_FAVORITES_SUCCESS",
+      "usedBy": ["/react/containers/FoodRecord/dispatch.js", "/redux/reducers/foodrecord.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "name": "REMOVE_FAVORITE",
+      "usedBy": ["/react/containers/FoodRecord/dispatch.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "name": "REMOVE_FAVORITE_SUCCESS",
+      "usedBy": ["/react/containers/FoodRecord/dispatch.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "name": "RECEIVE_MEALS",
+      "usedBy": ["/react/containers/PublicMeals/dispatch.js", "/redux/reducers/meals.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "name": "GENERATE_FOOD_ERROR",
+      "usedBy": ["/redux/reducers/fpdietgenerator.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "name": "GENERATE_FOOD_SUCCESS",
+      "usedBy": ["/redux/reducers/fpdietgenerator.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "name": "CREATE_PROGRAM",
+      "usedBy": ["/redux/reducers/user.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "name": "DESTROY_MEASUREMENT",
+      "usedBy": ["/react/containers/Home/dispatch.js", "/redux/reducers/user.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "name": "RECEIVE_MEASUREMENTS",
+      "usedBy": ["/react/containers/BMRCalculator/dispatch.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "name": "RECEIVE_GOALS",
+      "usedBy": ["/react/containers/SetGoals/dispatch.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "name": "SAVE_BMR_CALORIES",
+      "usedBy": ["/react/containers/BMRCalculator/dispatch.js", "/redux/reducers/root.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "name": "ADD_DAY",
+      "usedBy": ["/react/containers/ShoppingList/dispatch.js", "/redux/reducers/shoppinglist.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "name": "FETCHING_DAY_MEAL_PLAN",
+      "usedBy": ["/react/containers/ShoppingList/dispatch.js", "/redux/reducers/shoppinglist.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "name": "RECALCULATE_DAY",
+      "usedBy": ["/react/containers/ShoppingList/dispatch.js", "/redux/reducers/shoppinglist.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "name": "RECEIVE_LIST_ITEMS",
+      "usedBy": ["/react/containers/List/dispatch.js", "/redux/reducers/shoppinglist.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "name": "REMOVE_DAY",
+      "usedBy": ["/react/containers/ShoppingList/dispatch.js", "/redux/reducers/shoppinglist.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "name": "MEALS",
+      "usedBy": ["/react/containers/FoodRecord/components/RecordList.js", "/react/containers/Home/bardata.js", "/react/containers/SetGoals/components/GoalsReport.js", "/react/containers/ShoppingList/Day.js"]
+    }],
+    "defaultExport": null
+  },
+  "/redux/reducers/database.js": {
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "name": "databaseReducer",
+      "usedBy": ["/redux/reducers/index.js"]
+    }
+  },
+  "/redux/reducers/foodrecord.js": {
+    "namedExports": [{
+      "type": "ExportNamedDeclaration",
+      "name": "handleAddMeal",
+      "usedBy": ["/react/containers/MealPlanner/components/AddToMeals.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "name": "makeMealPublic",
+      "usedBy": []
+    }],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "name": "foodrecordReducer",
+      "usedBy": ["/redux/reducers/index.js"]
+    }
+  },
+  "/redux/reducers/fpdietgenerator.js": {
+    "namedExports": [{
+      "type": "ExportNamedDeclaration",
+      "name": "calculateFood",
+      "usedBy": ["/react/containers/FrontPage/InputsSection.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "name": "generateFood",
+      "usedBy": ["/react/containers/FrontPage/InputsSection.js"]
+    }],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "name": "fpdietgeneratorReducer",
+      "usedBy": ["/redux/reducers/index.js"]
+    }
+  },
+  "/redux/reducers/home.js": {
+    "namedExports": [{
+      "type": "ExportNamedDeclaration",
+      "name": "fetchUserInfo",
+      "usedBy": []
+    }, {
+      "type": "ExportNamedDeclaration",
+      "name": "fetchPrograms",
+      "usedBy": []
+    }],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "name": "homeReducer",
+      "usedBy": ["/redux/reducers/index.js"]
+    }
+  },
+  "/redux/reducers/index.js": {
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "usedBy": ["/redux/store.js"]
+    }
+  },
+  "/redux/reducers/mealplanner.js": {
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "name": "mealplannerReducer",
+      "usedBy": ["/redux/reducers/index.js"]
+    }
+  },
+  "/redux/reducers/meals.js": {
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "name": "mealsReducer",
+      "usedBy": ["/redux/reducers/index.js"]
+    }
+  },
+  "/redux/reducers/root.js": {
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "name": "rootReducer",
+      "usedBy": ["/redux/reducers/index.js"]
+    }
+  },
+  "/redux/reducers/shoppinglist.js": {
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "name": "shoppinglistReducer",
+      "usedBy": ["/redux/reducers/index.js"]
+    }
+  },
+  "/redux/reducers/user.js": {
+    "namedExports": [{
+      "type": "ExportNamedDeclaration",
+      "name": "createUser",
+      "usedBy": []
+    }, {
+      "type": "ExportNamedDeclaration",
+      "name": "createProgram",
+      "usedBy": ["/react/containers/BMRCalculator/dispatch.js"]
+    }],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "name": "rootReducer",
+      "usedBy": ["/redux/reducers/index.js"]
+    }
+  },
+  "/redux/store.js": {
+    "namedExports": [{
+      "type": "ExportNamedDeclaration",
+      "name": "token",
+      "usedBy": []
+    }],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "name": "store",
+      "usedBy": ["/react/index.js"]
+    }
+  },
+  "/redux/utils/api.js": {
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "name": "apiClient",
+      "usedBy": ["/react/containers/BMRCalculator/dispatch.js", "/react/containers/Database/dispatch.js", "/react/containers/FoodRecord/dispatch.js", "/react/containers/Home/dispatch.js", "/react/containers/List/dispatch.js", "/react/containers/Login/dispatch.js", "/react/containers/MealPlanner/dispatch.js", "/react/containers/PublicMeals/dispatch.js", "/react/containers/SetGoals/dispatch.js", "/react/containers/ShoppingList/dispatch.js", "/redux/reducers/foodrecord.js", "/redux/reducers/fpdietgenerator.js", "/redux/reducers/home.js", "/redux/reducers/user.js"]
+    }
+  },
+  "/redux/utils/caloriesCache.js": {
+    "imports": [],
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "name": "caloriesCache",
+      "usedBy": []
+    }
+  },
+  "/redux/utils/cookie.js": {
+    "imports": [],
+    "namedExports": [{
+      "type": "ExportNamedDeclaration",
+      "name": "getCookie",
+      "usedBy": ["/react/Main.js"]
+    }],
+    "defaultExport": null
+  },
+  "/redux/utils/debounce.js": {
+    "imports": [],
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "name": "debounce",
+      "usedBy": ["/react/containers/Database/containers/Add/containers/NameGroup/index.js", "/react/containers/Home/dispatch.js", "/react/containers/MealPlanner/index.js"]
+    }
+  },
+  "/redux/utils/foodFavoritesCache.js": {
+    "imports": [],
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "name": "foodFavoritesCache",
+      "usedBy": ["/redux/reducers/user.js"]
+    }
+  },
+  "/redux/utils/foodRecordCache.js": {
+    "imports": [],
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "name": "foodRecordCache",
+      "usedBy": ["/react/containers/FoodRecord/dispatch.js", "/redux/reducers/foodrecord.js"]
+    }
+  },
+  "/redux/utils/getToken.js": {
+    "imports": [],
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "name": "getToken",
+      "usedBy": ["/react/Main.js", "/react/containers/Login/dispatch.js", "/redux/utils/api.js"]
+    }
+  }
+}

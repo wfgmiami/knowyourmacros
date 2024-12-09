@@ -1,0 +1,22 @@
+[ignore]
+./node_modules/**
+.*/node_modules/**
+
+[include]
+
+[libs]
+
+[lints]
+
+[options]
+module.system.node.resolve_dirname=<PROJECT_ROOT>/browser/react
+module.name_mapper='^reducers\/\(.*\)$' -> '<PROJECT_ROOT>/browser/redux/reducers/\1'
+module.name_mapper='^utils\/\(.*\)$' -> '<PROJECT_ROOT>/browser/redux/utils/\1'
+module.name_mapper='^components\/\(.*\)$' -> '<PROJECT_ROOT>/browser/react/components/\1'
+module.name_mapper='^containers\/\(.*\)$' -> '<PROJECT_ROOT>/browser/react/containers/\1'
+module.name_mapper='^theme\/\(.*\)$' -> '<PROJECT_ROOT>/browser/react/theme/\1'
+module.name_mapper='^reducers\/\(.*\)$' -> '<PROJECT_ROOT>/browser/redux/reducers/\1'
+module.name_mapper='^app\/\(.*\)$' -> '<PROJECT_ROOT>/browser/\1'
+
+[strict]
+

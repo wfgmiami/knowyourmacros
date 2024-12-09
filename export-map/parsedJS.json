@@ -1,0 +1,2836 @@
+{
+  "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/esdoc-types/abbrevType.js": {
+    "imports": [],
+    "namedExports": [],
+    "defaultExport": null
+  },
+  "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/esdoc-types/foodDescType.js": {
+    "imports": [],
+    "namedExports": [],
+    "defaultExport": null
+  },
+  "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/esdoc-types/foodGroupType.js": {
+    "imports": [],
+    "namedExports": [],
+    "defaultExport": null
+  },
+  "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/esdoc-types/foodrecordType.js": {
+    "imports": [],
+    "namedExports": [],
+    "defaultExport": null
+  },
+  "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/esdoc-types/mealGoalType.js": {
+    "imports": [],
+    "namedExports": [],
+    "defaultExport": null
+  },
+  "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/esdoc-types/mealType.js": {
+    "imports": [],
+    "namedExports": [],
+    "defaultExport": null
+  },
+  "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/esdoc-types/programType.js": {
+    "imports": [],
+    "namedExports": [],
+    "defaultExport": null
+  },
+  "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/esdoc-types/userMeasurementType.js": {
+    "imports": [],
+    "namedExports": [],
+    "defaultExport": null
+  },
+  "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/esdoc-types/userType.js": {
+    "imports": [],
+    "namedExports": [],
+    "defaultExport": null
+  },
+  "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/esdoc-types/weightType.js": {
+    "imports": [],
+    "namedExports": [],
+    "defaultExport": null
+  },
+  "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/App.js": {
+    "imports": [{
+      "type": "ImportDeclaration",
+      "specifiers": ["Home"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/Home/index.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["FoodRecord"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/FoodRecord/index.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["MealPlanner"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/MealPlanner/index.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["ShoppingList"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/ShoppingList/index.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["PublicMeals"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/PublicMeals/index.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["Database"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/Database/index.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["List"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/List/index.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["theme"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/theme/index.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["SetGoals"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/SetGoals/index.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["store"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/app/redux/store.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["Main"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/Main.js"
+    }],
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "name": "App",
+      "usedBy": []
+    }
+  },
+  "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/Main.js": {
+    "imports": [{
+      "type": "ImportDeclaration",
+      "specifiers": ["Nav"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/Nav/index.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["FrontPage"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/FrontPage/index.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["getCookie"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/redux/utils/cookie.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["getToken"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/redux/utils/getToken.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["exchangeTokenForUser"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/Login/dispatch.js"
+    }],
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/App.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/index.js"]
+    }
+  },
+  "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/colorCSS.js": {
+    "imports": [{
+      "type": "ImportDeclaration",
+      "specifiers": ["theme"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/theme/index.js"
+    }],
+    "namedExports": [{
+      "type": "ExportNamedDeclaration",
+      "specifiers": ["active"],
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/Nav/index.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "specifiers": ["fixed"],
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/FormComponents/index.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/Label/index.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/Nav/index.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/Panel/styled.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/Th/index.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/Well/index.js"]
+    }],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/Button/index.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/Nav/index.js"]
+    }
+  },
+  "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/A/index.js": {
+    "imports": [],
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "name": "A",
+      "usedBy": []
+    }
+  },
+  "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/Badge/index.js": {
+    "imports": [],
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "name": "Badge",
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/ListGroup/index.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/MealPlanner/components/FoodsList.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/MealPlanner/components/RetainedFoodsList.js"]
+    }
+  },
+  "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/Button/index.js": {
+    "imports": [{
+      "type": "ImportDeclaration",
+      "specifiers": ["colorCSS"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/colorCSS.js"
+    }],
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "name": "Button",
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/ModalCoverage/index.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/BMRCalculator/UpdateWeight.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/BMRCalculator/components/MeasurementsForm/index.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/ChangeDay/index.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/Database/containers/AddForm.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/FoodRecord/components/FoodListItem.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/FoodRecord/components/Header.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/FoodRecord/components/SelectFood.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/FoodRecord/containers/ModifyRecordForm.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/FoodRecord/containers/SelectFood.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/FrontPage/InputsSection.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/Home/WeightChart.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/Login/containers/LoginForm/index.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/MealPlanner/components/AddToMeals.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/MealPlanner/components/FoodsList.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/MealPlanner/components/RetainedFoodsList.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/MealPlanner/containers/GoalForm.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/PublicMeals/index.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/SetGoals/index.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/ShoppingList/AddDay.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/ShoppingList/Day.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/ShoppingList/index.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/Signup/containers/SignupForm/index.js"]
+    }
+  },
+  "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/Container/index.js": {
+    "imports": [{
+      "type": "ImportDeclaration",
+      "specifiers": ["media"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/theme/media.js"
+    }],
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "name": "Container",
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/Database/index.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/FrontPage/AboutSection.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/FrontPage/InputsSection.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/Home/MainDash.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/List/index.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/MealPlanner/index.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/PublicMeals/index.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/SetGoals/index.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/ShoppingList/index.js"]
+    }
+  },
+  "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/FeedbackInput/index.js": {
+    "imports": [{
+      "type": "ImportDeclaration",
+      "specifiers": ["Input"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/FormComponents/index.js"
+    }],
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "name": "FeedbackInput",
+      "usedBy": []
+    }
+  },
+  "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/FlexWrapper/index.js": {
+    "imports": [{
+      "type": "ImportDeclaration",
+      "specifiers": ["media"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/theme/media.js"
+    }],
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "name": "FlexWrapper",
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/BMRCalculator/components/MeasurementsForm/index.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/ChangeDay/index.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/Database/components/Macronutrients.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/Database/components/Serving.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/DayMacroSummary/styled.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/FoodRecord/components/FoodListItem.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/FoodRecord/components/Header.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/FoodRecord/components/SelectFood.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/FoodRecord/components/styled.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/FoodRecord/containers/SelectFood.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/FoodRecord/containers/styled.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/FoodRecord/index.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/FrontPage/InputsSection.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/Home/MainDash.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/Home/WeightChart.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/MealPlanner/components/AddToMeals.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/MealPlanner/containers/GoalForm.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/Nav/index.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/PublicMeals/index.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/SetGoals/index.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/ShoppingList/Day.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/ShoppingList/index.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/ShoppingList/styled.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/Signup/containers/SignupForm/index.js"]
+    }
+  },
+  "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/FormComponents/index.js": {
+    "imports": [{
+      "type": "ImportDeclaration",
+      "specifiers": ["fixed"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/colorCSS.js"
+    }],
+    "namedExports": [{
+      "type": "ExportNamedDeclaration",
+      "specifiers": ["Input"],
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/FeedbackInput/index.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/BMRCalculator/UpdateWeight.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/BMRCalculator/components/MeasurementsForm/index.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/BMRCalculator/components/MeasurementsForm/styled.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/BMRCalculator/index.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/Database/components/ItemDescription.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/Database/components/Macronutrient.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/Database/components/Serving.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/FoodRecord/components/SelectFood.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/FoodRecord/containers/ModifyRecordForm.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/FoodRecord/containers/SelectFood.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/FrontPage/InputsSection.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/Login/containers/LoginForm/index.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/MealPlanner/containers/GoalForm.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/MealPlanner/containers/SearchForm.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/PublicMeals/index.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/SetGoals/index.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/Signup/containers/SignupForm/index.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/Signup/containers/SignupForm/styled.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "specifiers": ["Select"],
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/OptionGroup/index.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/BMRCalculator/index.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/Database/containers/AddForm.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/FoodRecord/components/SelectFood.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/FoodRecord/containers/ModifyRecordForm.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/MealPlanner/components/AddToMeals.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/SetGoals/index.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/ShoppingList/Day.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "specifiers": ["Label"],
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/BMRCalculator/components/MeasurementsForm/index.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/BMRCalculator/index.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/Database/components/ItemDescription.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/Database/components/Macronutrient.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/Database/components/Serving.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/Database/containers/AddForm.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/MealPlanner/containers/GoalForm.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/SetGoals/index.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/Signup/containers/SignupForm/index.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "specifiers": ["InputGroup"],
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/BMRCalculator/UpdateWeight.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/FoodRecord/components/SelectFood.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/FoodRecord/containers/SelectFood.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/ShoppingList/Day.js"]
+    }],
+    "defaultExport": null
+  },
+  "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/H1/index.js": {
+    "imports": [],
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "name": "H1",
+      "usedBy": []
+    }
+  },
+  "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/H2/index.js": {
+    "imports": [],
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "name": "H2",
+      "usedBy": []
+    }
+  },
+  "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/H3/index.js": {
+    "imports": [],
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "name": "H3",
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/ShoppingList/Day.js"]
+    }
+  },
+  "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/HeightCollapse/index.js": {
+    "imports": [],
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "name": "HeightCollapse",
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/BMRCalculator/UpdateWeight.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/FoodRecord/components/FoodListItem.js"]
+    }
+  },
+  "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/Icon/index.js": {
+    "imports": [{
+      "type": "ImportDeclaration",
+      "specifiers": ["icons"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/Icon/icons.json"
+    }],
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "name": "Icon",
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/FoodRecord/components/FoodListItem.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/FoodRecord/components/Header.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/FoodRecord/components/SelectFood.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/FrontPage/NavFrontPage.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/Home/WeightChart.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/Nav/index.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/ShoppingList/AddDay.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/ShoppingList/Day.js"]
+    }
+  },
+  "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/Img/index.js": {
+    "imports": [],
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "name": "Img",
+      "usedBy": []
+    }
+  },
+  "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/IssueIcon/index.js": {
+    "imports": [],
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "name": "IssueIcon",
+      "usedBy": []
+    }
+  },
+  "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/Label/index.js": {
+    "imports": [{
+      "type": "ImportDeclaration",
+      "specifiers": ["fixed"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/colorCSS.js"
+    }],
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "name": "Label",
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/FoodRecord/components/FoodListItem.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/ShoppingList/Day.js"]
+    }
+  },
+  "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/ListGroup/index.js": {
+    "imports": [{
+      "type": "ImportDeclaration",
+      "specifiers": ["Badge"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/Badge/index.js"
+    }],
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "name": "ListGroup",
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/FoodRecord/components/FoodList.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/FoodRecord/containers/SelectFood.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/List/index.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/MealPlanner/components/FoodsList.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/MealPlanner/components/RetainedFoodsList.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/ShoppingList/Day.js"]
+    }
+  },
+  "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/ListItem/Item.js": {
+    "imports": [],
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "name": "Item",
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/ListItem/index.js"]
+    }
+  },
+  "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/ListItem/Wrapper.js": {
+    "imports": [],
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "name": "Wrapper",
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/ListItem/index.js"]
+    }
+  },
+  "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/ListItem/index.js": {
+    "imports": [{
+      "type": "ImportDeclaration",
+      "specifiers": ["Item"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/ListItem/Item.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["Wrapper"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/ListItem/Wrapper.js"
+    }],
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "name": "ListItem",
+      "usedBy": []
+    }
+  },
+  "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/LoadingIndicator/Circle.js": {
+    "imports": [],
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "name": "Circle",
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/LoadingIndicator/index.js"]
+    }
+  },
+  "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/LoadingIndicator/Wrapper.js": {
+    "imports": [],
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "name": "Wrapper",
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/LoadingIndicator/index.js"]
+    }
+  },
+  "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/LoadingIndicator/index.js": {
+    "imports": [{
+      "type": "ImportDeclaration",
+      "specifiers": ["Circle"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/LoadingIndicator/Circle.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["Wrapper"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/LoadingIndicator/Wrapper.js"
+    }],
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "name": "LoadingIndicator",
+      "usedBy": []
+    }
+  },
+  "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/ModalCoverage/index.js": {
+    "imports": [{
+      "type": "ImportDeclaration",
+      "specifiers": ["Button"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/Button/index.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["Overlay", "ModalContent"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/ModalCoverage/styled.js"
+    }],
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "name": "ModalCoverage",
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/FrontPage/NavFrontPage.js"]
+    }
+  },
+  "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/ModalCoverage/styled.js": {
+    "imports": [],
+    "namedExports": [{
+      "type": "ExportNamedDeclaration",
+      "specifiers": ["Overlay"],
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/ModalCoverage/index.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "specifiers": ["ModalContent"],
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/ModalCoverage/index.js"]
+    }],
+    "defaultExport": null
+  },
+  "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/Nav/index.js": {
+    "imports": [{
+      "type": "ImportDeclaration",
+      "specifiers": ["colorCSS", "active", "fixed"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/colorCSS.js"
+    }],
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "name": "Nav",
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/FrontPage/NavFrontPage.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/Nav/index.js"]
+    }
+  },
+  "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/OptionGroup/index.js": {
+    "imports": [{
+      "type": "ImportDeclaration",
+      "specifiers": ["Select"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/FormComponents/index.js"
+    }],
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "name": "OptionGroup",
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/BMRCalculator/components/MeasurementsForm/index.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/FrontPage/InputsSection.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/SetGoals/index.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/Signup/containers/SignupForm/index.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/Signup/containers/SignupForm/styled.js"]
+    }
+  },
+  "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/Panel/index.js": {
+    "imports": [{
+      "type": "ImportDeclaration",
+      "specifiers": ["Wrapper", "Heading", "Body", "Footer"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/Panel/styled.js"
+    }],
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "name": "Panel",
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/Home/MainDash.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/PublicMeals/index.js"]
+    }
+  },
+  "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/Panel/styled.js": {
+    "imports": [{
+      "type": "ImportDeclaration",
+      "specifiers": ["fixed"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/colorCSS.js"
+    }],
+    "namedExports": [{
+      "type": "ExportNamedDeclaration",
+      "specifiers": ["Wrapper"],
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/Panel/index.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "specifiers": ["Heading"],
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/Panel/index.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "specifiers": ["Body"],
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/Panel/index.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "specifiers": ["Footer"],
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/Panel/index.js"]
+    }],
+    "defaultExport": null
+  },
+  "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/Radio/index.js": {
+    "imports": [{
+      "type": "ImportDeclaration",
+      "specifiers": ["HiddenInput", "CheckBox", "Label"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/Radio/styled.js"
+    }],
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "name": "Radio",
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/BMRCalculator/components/MeasurementsForm/index.js"]
+    }
+  },
+  "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/Radio/styled.js": {
+    "imports": [],
+    "namedExports": [{
+      "type": "ExportNamedDeclaration",
+      "specifiers": ["HiddenInput"],
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/Radio/index.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "specifiers": ["CheckBox"],
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/Radio/index.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "specifiers": ["Label"],
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/Radio/index.js"]
+    }],
+    "defaultExport": null
+  },
+  "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/Th/index.js": {
+    "imports": [{
+      "type": "ImportDeclaration",
+      "specifiers": ["fixed"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/colorCSS.js"
+    }],
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "name": "Th",
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/MealPlanner/components/ReportTable.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/SetGoals/components/GoalsReport.js"]
+    }
+  },
+  "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/Well/index.js": {
+    "imports": [{
+      "type": "ImportDeclaration",
+      "specifiers": ["fixed"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/colorCSS.js"
+    }],
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "name": "Well",
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/Database/containers/AddForm.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/FoodRecord/components/RecordList.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/FrontPage/AboutSection.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/FrontPage/InputsSection.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/MealPlanner/components/FoodsList.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/MealPlanner/components/RetainedFoodsList.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/MealPlanner/index.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/SetGoals/index.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/ShoppingList/index.js"]
+    }
+  },
+  "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/WidthCollapse/index.js": {
+    "imports": [],
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "name": "WidthCollapse",
+      "usedBy": []
+    }
+  },
+  "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/BMRCalculator/UpdateWeight.js": {
+    "imports": [{
+      "type": "ImportDeclaration",
+      "specifiers": ["HeightCollapse"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/HeightCollapse/index.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["Button"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/Button/index.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["Input", "InputGroup"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/FormComponents/index.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["updateWeight"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/BMRCalculator/dispatch.js"
+    }],
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/Home/WeightChart.js"]
+    }
+  },
+  "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/BMRCalculator/components/MeasurementsForm/index.js": {
+    "imports": [{
+      "type": "ImportDeclaration",
+      "specifiers": ["Button"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/Button/index.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["FlexWrapper"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/FlexWrapper/index.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["Input", "Label"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/FormComponents/index.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["OptionGroup"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/OptionGroup/index.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["Radio"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/Radio/index.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["MarginTop"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/BMRCalculator/components/MeasurementsForm/styled.js"
+    }],
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "name": "MeasurementForm",
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/BMRCalculator/index.js"]
+    }
+  },
+  "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/BMRCalculator/components/MeasurementsForm/styled.js": {
+    "imports": [{
+      "type": "ImportDeclaration",
+      "specifiers": ["Input"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/FormComponents/index.js"
+    }],
+    "namedExports": [{
+      "type": "ExportNamedDeclaration",
+      "specifiers": ["MarginTop"],
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/BMRCalculator/components/MeasurementsForm/index.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "specifiers": ["Radio"],
+      "usedBy": []
+    }, {
+      "type": "ExportNamedDeclaration",
+      "specifiers": ["RadioLabel"],
+      "usedBy": []
+    }],
+    "defaultExport": null
+  },
+  "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/BMRCalculator/dispatch.js": {
+    "imports": [{
+      "type": "ImportDeclaration",
+      "specifiers": ["api"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/redux/utils/api.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["createProgram"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/redux/reducers/root.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["RECEIVE_MEASUREMENTS", "SAVE_BMR_CALORIES"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/app/redux/constants.js"
+    }],
+    "namedExports": [{
+      "type": "ExportNamedDeclaration",
+      "specifiers": ["saveMeasurements"],
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/BMRCalculator/index.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "specifiers": ["bmrCalories"],
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/BMRCalculator/index.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "specifiers": ["updateWeight"],
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/BMRCalculator/UpdateWeight.js"]
+    }],
+    "defaultExport": null
+  },
+  "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/BMRCalculator/index.js": {
+    "imports": [{
+      "type": "ImportDeclaration",
+      "specifiers": ["Select", "Input", "Label"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/FormComponents/index.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["saveMeasurements", "bmrCalories"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/BMRCalculator/dispatch.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["MeasurementsForm"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/BMRCalculator/components/MeasurementsForm/index.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["lifeStyle", "invertLifeStyle"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/BMRCalculator/utils.js"
+    }],
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/Home/index.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/SetGoals/index.js"]
+    }
+  },
+  "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/BMRCalculator/utils.js": {
+    "imports": [],
+    "namedExports": [{
+      "type": "ExportNamedDeclaration",
+      "specifiers": ["lifeStyle"],
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/BMRCalculator/index.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "specifiers": ["invertLifeStyle"],
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/BMRCalculator/index.js"]
+    }],
+    "defaultExport": null
+  },
+  "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/ChangeDay/dispatch.js": {
+    "imports": [{
+      "type": "ImportDeclaration",
+      "specifiers": ["fetchFoodRecord"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/FoodRecord/dispatch.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["getCalories"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/Home/dispatch.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["CHANGE_DAY"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/app/redux/constants.js"
+    }],
+    "namedExports": [{
+      "type": "ExportNamedDeclaration",
+      "specifiers": ["changeDay"],
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/ChangeDay/index.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "specifiers": ["nextDayClick"],
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/ChangeDay/index.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "specifiers": ["previousDayClick"],
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/ChangeDay/index.js"]
+    }],
+    "defaultExport": null
+  },
+  "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/ChangeDay/index.js": {
+    "imports": [{
+      "type": "ImportDeclaration",
+      "specifiers": ["ButtonBase"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/Button/index.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["FlexWrapperBase"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/FlexWrapper/index.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["changeDay", "nextDayClick", "previousDayClick"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/ChangeDay/dispatch.js"
+    }],
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/FoodRecord/index.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/Home/MainDash.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/MealPlanner/components/ReportTable.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/ShoppingList/index.js"]
+    }
+  },
+  "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/Database/components/ItemDescription.js": {
+    "imports": [{
+      "type": "ImportDeclaration",
+      "specifiers": ["Input", "Label"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/FormComponents/index.js"
+    }],
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "name": "ItemDescription",
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/Database/containers/AddForm.js"]
+    }
+  },
+  "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/Database/components/Macronutrient.js": {
+    "imports": [{
+      "type": "ImportDeclaration",
+      "specifiers": ["Input", "Label"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/FormComponents/index.js"
+    }],
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "name": "Macronutrient",
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/Database/components/Macronutrients.js"]
+    }
+  },
+  "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/Database/components/Macronutrients.js": {
+    "imports": [{
+      "type": "ImportDeclaration",
+      "specifiers": ["FlexWrapper"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/FlexWrapper/index.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["Macronutrient"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/Database/components/Macronutrient.js"
+    }],
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "name": "Macronutrients",
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/Database/containers/AddForm.js"]
+    }
+  },
+  "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/Database/components/Serving.js": {
+    "imports": [{
+      "type": "ImportDeclaration",
+      "specifiers": ["Input", "Label"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/FormComponents/index.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["FlexWrapper"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/FlexWrapper/index.js"
+    }],
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "name": "Serving",
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/Database/containers/AddForm.js"]
+    }
+  },
+  "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/Database/containers/AddForm.js": {
+    "imports": [{
+      "type": "ImportDeclaration",
+      "specifiers": ["debounce"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/redux/utils/debounce.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["Well"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/Well/index.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["Button"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/Button/index.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["Select", "Label"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/FormComponents/index.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["ItemDescription"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/Database/components/ItemDescription.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["Serving"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/Database/components/Serving.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["Macronutrients"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/Database/components/Macronutrients.js"
+    }],
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "name": "AddForm",
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/Database/index.js"]
+    }
+  },
+  "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/Database/index.js": {
+    "imports": [{
+      "type": "ImportDeclaration",
+      "specifiers": ["Container"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/Container/index.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["AddForm"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/Database/containers/AddForm.js"
+    }],
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "name": "Database",
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/App.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/index.js"]
+    }
+  },
+  "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/DayMacroSummary/index.js": {
+    "imports": [{
+      "type": "ImportDeclaration",
+      "specifiers": ["calculateDayMacros"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/FoodRecord/dispatch.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["Left", "Right", "Wrapper"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/DayMacroSummary/styled.js"
+    }],
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/FoodRecord/index.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/Home/MainDash.js"]
+    }
+  },
+  "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/DayMacroSummary/styled.js": {
+    "imports": [{
+      "type": "ImportDeclaration",
+      "specifiers": ["FlexWrapper"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/FlexWrapper/index.js"
+    }],
+    "namedExports": [{
+      "type": "ExportNamedDeclaration",
+      "specifiers": ["Wrapper"],
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/DayMacroSummary/index.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "specifiers": ["Left"],
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/DayMacroSummary/index.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "specifiers": ["Right"],
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/DayMacroSummary/index.js"]
+    }],
+    "defaultExport": null
+  },
+  "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/FoodRecord/components/FoodList.js": {
+    "imports": [{
+      "type": "ImportDeclaration",
+      "specifiers": ["ListGroup"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/ListGroup/index.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["FlexW"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/FoodRecord/components/styled.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["calculateDayMacros"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/FoodRecord/dispatch.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["FoodListItem"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/FoodRecord/components/FoodListItem.js"
+    }],
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "name": "FoodList",
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/FoodRecord/components/RecordList.js"]
+    }
+  },
+  "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/FoodRecord/components/FoodListItem.js": {
+    "imports": [{
+      "type": "ImportDeclaration",
+      "specifiers": ["HeightCollapse"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/HeightCollapse/index.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["Button"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/Button/index.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["Label"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/Label/index.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["Icon"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/Icon/index.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["FlexWrapper"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/FlexWrapper/index.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["FlexW"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/FoodRecord/components/styled.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["destroyFoodRecord", "confirmRecord"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/FoodRecord/dispatch.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["ModifyRecordForm"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/FoodRecord/containers/ModifyRecordForm.js"
+    }],
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/FoodRecord/components/FoodList.js"]
+    }
+  },
+  "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/FoodRecord/components/Header.js": {
+    "imports": [{
+      "type": "ImportDeclaration",
+      "specifiers": ["Button"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/Button/index.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["FlexWrapper"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/FlexWrapper/index.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["Icon"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/Icon/index.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["changeAddMeal"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/FoodRecord/dispatch.js"
+    }],
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/FoodRecord/components/RecordList.js"]
+    }
+  },
+  "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/FoodRecord/components/RecordList.js": {
+    "imports": [{
+      "type": "ImportDeclaration",
+      "specifiers": ["Well"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/Well/index.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["MEALS"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/app/redux/constants.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["FoodList"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/FoodRecord/components/FoodList.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["Header"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/FoodRecord/components/Header.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["SelectFoodContainer"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/FoodRecord/containers/SelectFood.js"
+    }],
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/Home/MainDash.js"]
+    }
+  },
+  "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/FoodRecord/components/SelectFood.js": {
+    "imports": [{
+      "type": "ImportDeclaration",
+      "specifiers": ["Select", "Input", "InputGroup"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/FormComponents/index.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["Button"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/Button/index.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["FlexWrapper"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/FlexWrapper/index.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["Icon"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/Icon/index.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["handleAddFoodRecord"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/FoodRecord/dispatch.js"
+    }],
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/FoodRecord/containers/SelectFood.js"]
+    }
+  },
+  "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/FoodRecord/components/styled.js": {
+    "imports": [{
+      "type": "ImportDeclaration",
+      "specifiers": ["media"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/theme/media.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["FlexWrapper"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/FlexWrapper/index.js"
+    }],
+    "namedExports": [{
+      "type": "ExportNamedDeclaration",
+      "specifiers": ["FlexW"],
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/FoodRecord/components/FoodList.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/FoodRecord/components/FoodListItem.js"]
+    }],
+    "defaultExport": null
+  },
+  "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/FoodRecord/containers/AddRecord.js": {
+    "imports": [],
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "name": "AddRecordContainer",
+      "usedBy": []
+    }
+  },
+  "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/FoodRecord/containers/ModifyRecordForm.js": {
+    "imports": [{
+      "type": "ImportDeclaration",
+      "specifiers": ["Button"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/Button/index.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["Select", "Input"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/FormComponents/index.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["FlexWrapper"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/FoodRecord/containers/styled.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["updateQuantity"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/FoodRecord/dispatch.js"
+    }],
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/FoodRecord/components/FoodListItem.js"]
+    }
+  },
+  "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/FoodRecord/containers/SelectFood.js": {
+    "imports": [{
+      "type": "ImportDeclaration",
+      "specifiers": ["Input", "InputGroup"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/FormComponents/index.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["HIDE_MODAL"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/app/redux/constants.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["Button"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/Button/index.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["FlexWrapper"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/FlexWrapper/index.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["ListGroup"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/ListGroup/index.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["fetchFoods"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/FoodRecord/dispatch.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["SelectFood"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/FoodRecord/components/SelectFood.js"
+    }],
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/FoodRecord/components/RecordList.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/FoodRecord/index.js"]
+    }
+  },
+  "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/FoodRecord/containers/styled.js": {
+    "imports": [{
+      "type": "ImportDeclaration",
+      "specifiers": ["FlexWrapperBase"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/FlexWrapper/index.js"
+    }],
+    "namedExports": [{
+      "type": "ExportNamedDeclaration",
+      "specifiers": ["FlexWrapper"],
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/FoodRecord/containers/ModifyRecordForm.js"]
+    }],
+    "defaultExport": null
+  },
+  "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/FoodRecord/dispatch.js": {
+    "imports": [{
+      "type": "ImportDeclaration",
+      "specifiers": ["api"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/redux/utils/api.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["foodRecordCache"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/redux/utils/foodRecordCache.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["ADD_MEAL", "DISPLAY_MODAL", "RECEIVE_FOOD_RECORD", "RECEIVE_FOOD_SEARCH_RESULT", "UPDATE_RECORD_QUANTITY", "REMOVE_FOOD_RECORD_ITEM", "REMOVE_FOOD_RECORD_ITEM_SUCCESS", "CONFIRM_RECORD", "CONFIRM_RECORD_SUCCESS", "CONFIRM_RECORD_FAIL"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/app/redux/constants.js"
+    }],
+    "namedExports": [{
+      "type": "ExportNamedDeclaration",
+      "specifiers": ["fetchFoods"],
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/FoodRecord/containers/SelectFood.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "specifiers": ["updateQuantity"],
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/FoodRecord/containers/ModifyRecordForm.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "specifiers": ["calculateDayMacros"],
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/DayMacroSummary/index.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/FoodRecord/components/FoodList.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/Home/MainDash.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "specifiers": ["destroyFoodRecord"],
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/FoodRecord/components/FoodListItem.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "specifiers": ["confirmRecord"],
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/FoodRecord/components/FoodListItem.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "specifiers": ["changeAddMeal"],
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/FoodRecord/components/Header.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "specifiers": ["handleAddFoodRecord"],
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/FoodRecord/components/SelectFood.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "specifiers": ["fetchFoodRecord"],
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/ChangeDay/dispatch.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/redux/store.js"]
+    }],
+    "defaultExport": null
+  },
+  "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/FoodRecord/index.js": {
+    "imports": [{
+      "type": "ImportDeclaration",
+      "specifiers": ["DayMacroSummary"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/DayMacroSummary/index.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["ChangeDay"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/ChangeDay/index.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["FlexWrapper"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/FlexWrapper/index.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["RecordList"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/FoodRecord/containers/SelectFood.js"
+    }],
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/App.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/index.js"]
+    }
+  },
+  "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/FrontPage/AboutSection.js": {
+    "imports": [{
+      "type": "ImportDeclaration",
+      "specifiers": ["Well"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/Well/index.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["Container"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/Container/index.js"
+    }],
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "name": "AboutSection",
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/FrontPage/index.js"]
+    }
+  },
+  "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/FrontPage/InputsSection.js": {
+    "imports": [{
+      "type": "ImportDeclaration",
+      "specifiers": ["generateFood", "calculateFood"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/redux/reducers/fpdietgenerator.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["Well"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/Well/index.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["Input"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/FormComponents/index.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["OptionGroup"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/OptionGroup/index.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["FlexWrapper"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/FlexWrapper/index.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["Button"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/Button/index.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["Container"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/Container/index.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["NutrientsSection"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/FrontPage/NutrientsSection.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["MealSection"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/FrontPage/MealSection.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["filteredMeals"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/filteredmeals.json"
+    }],
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/FrontPage/index.js"]
+    }
+  },
+  "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/FrontPage/MealSection.js": {
+    "imports": [],
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "name": "MealSection",
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/FrontPage/InputsSection.js"]
+    }
+  },
+  "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/FrontPage/NavFrontPage.js": {
+    "imports": [{
+      "type": "ImportDeclaration",
+      "specifiers": ["LoginForm"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/Login/containers/LoginForm/index.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["SignupForm"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/Signup/containers/SignupForm/index.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["Modal"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/ModalCoverage/index.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["Icon"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/Icon/index.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["SNav"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/Nav/index.js"
+    }],
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "name": "Nav",
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/FrontPage/index.js"]
+    }
+  },
+  "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/FrontPage/NutrientsSection.js": {
+    "imports": [],
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "name": "NutrientsSection",
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/FrontPage/InputsSection.js"]
+    }
+  },
+  "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/FrontPage/index.js": {
+    "imports": [{
+      "type": "ImportDeclaration",
+      "specifiers": ["LoginForm"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/Login/containers/LoginForm/index.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["Nav"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/FrontPage/NavFrontPage.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["InputsSection"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/FrontPage/InputsSection.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["AboutSection"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/FrontPage/AboutSection.js"
+    }],
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "name": "FrontPage",
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/Main.js"]
+    }
+  },
+  "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/Home/MainDash.js": {
+    "imports": [{
+      "type": "ImportDeclaration",
+      "specifiers": ["DayMacroSummary"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/DayMacroSummary/index.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["Panel"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/Panel/index.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["RecordList"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/FoodRecord/components/RecordList.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["ChangeDay"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/ChangeDay/index.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["Container"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/Container/index.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["FlexWrapperBase"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/FlexWrapper/index.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["media"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/theme/media.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["calculateDayMacros"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/FoodRecord/dispatch.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["getCalories"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/Home/dispatch.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["bardataFunc"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/Home/bardata.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["WeightChart"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/Home/WeightChart.js"
+    }],
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/Home/index.js"]
+    }
+  },
+  "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/Home/WeightChart.js": {
+    "imports": [{
+      "type": "ImportDeclaration",
+      "specifiers": ["ButtonBase"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/Button/index.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["FlexWrapper"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/FlexWrapper/index.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["Icon"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/Icon/index.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["destroyMeasurement"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/Home/dispatch.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["UpdateWeight"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/BMRCalculator/UpdateWeight.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["linedata"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/Home/_linedata.js"
+    }],
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/Home/MainDash.js"]
+    }
+  },
+  "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/Home/_linedata.js": {
+    "imports": [],
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "name": "linedata",
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/Home/WeightChart.js"]
+    }
+  },
+  "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/Home/bardata.js": {
+    "imports": [{
+      "type": "ImportDeclaration",
+      "specifiers": ["MEALS"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/app/redux/constants.js"
+    }],
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "name": "bardata",
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/Home/MainDash.js"]
+    }
+  },
+  "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/Home/dispatch.js": {
+    "imports": [{
+      "type": "ImportDeclaration",
+      "specifiers": ["api"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/redux/utils/api.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["caloriesCache"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/redux/utils/caloriesCache.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["debounce"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/redux/utils/debounce.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["RECEIVE_CALORIES", "DESTROY_MEASUREMENT"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/app/redux/constants.js"
+    }],
+    "namedExports": [{
+      "type": "ExportNamedDeclaration",
+      "specifiers": ["getCalories"],
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/ChangeDay/dispatch.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/Home/MainDash.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/redux/store.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "specifiers": ["destroyMeasurement"],
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/Home/WeightChart.js"]
+    }],
+    "defaultExport": null
+  },
+  "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/Home/index.js": {
+    "imports": [{
+      "type": "ImportDeclaration",
+      "specifiers": ["BMRCalculator"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/BMRCalculator/index.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["MainDash"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/Home/MainDash.js"
+    }],
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/App.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/index.js"]
+    }
+  },
+  "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/Home/linedata.js": {
+    "imports": [],
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "name": "linedata",
+      "usedBy": []
+    }
+  },
+  "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/List/dispatch.js": {
+    "imports": [{
+      "type": "ImportDeclaration",
+      "specifiers": ["api"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/redux/utils/api.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["RECEIVE_LIST_ITEMS"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/app/redux/constants.js"
+    }],
+    "namedExports": [{
+      "type": "ExportNamedDeclaration",
+      "specifiers": ["getList"],
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/List/index.js"]
+    }],
+    "defaultExport": null
+  },
+  "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/List/index.js": {
+    "imports": [{
+      "type": "ImportDeclaration",
+      "specifiers": ["Container"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/Container/index.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["ListGroup"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/ListGroup/index.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["getList"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/List/dispatch.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["makeList", "convertWeight"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/List/list-logic.js"
+    }],
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/App.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/index.js"]
+    }
+  },
+  "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/List/list-logic.js": {
+    "imports": [],
+    "namedExports": [{
+      "type": "ExportNamedDeclaration",
+      "specifiers": ["makeList"],
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/List/index.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "specifiers": ["convertWeight"],
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/List/index.js"]
+    }],
+    "defaultExport": null
+  },
+  "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/Login/containers/LoginForm/index.js": {
+    "imports": [{
+      "type": "ImportDeclaration",
+      "specifiers": ["Button"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/Button/index.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["Input"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/FormComponents/index.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["login"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/Login/dispatch.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["Wrapper", "MarginWrapper"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/Login/containers/LoginForm/styled.js"
+    }],
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/FrontPage/NavFrontPage.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/FrontPage/index.js"]
+    }
+  },
+  "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/Login/containers/LoginForm/styled.js": {
+    "imports": [],
+    "namedExports": [{
+      "type": "ExportNamedDeclaration",
+      "specifiers": ["MarginWrapper"],
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/Login/containers/LoginForm/index.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "specifiers": ["Wrapper"],
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/Login/containers/LoginForm/index.js"]
+    }],
+    "defaultExport": null
+  },
+  "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/Login/dispatch.js": {
+    "imports": [{
+      "type": "ImportDeclaration",
+      "specifiers": ["api"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/redux/utils/api.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["INVALID_LOGIN", "LOGIN_SUCCESS"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/app/redux/constants.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["getToken"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/redux/utils/getToken.js"
+    }],
+    "namedExports": [{
+      "type": "ExportNamedDeclaration",
+      "specifiers": ["exchangeTokenForUser"],
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/Main.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "specifiers": ["login"],
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/Login/containers/LoginForm/index.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/Signup/containers/SignupForm/index.js"]
+    }],
+    "defaultExport": null
+  },
+  "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/MacroGoalsReport/index.js": {
+    "imports": [],
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "usedBy": []
+    }
+  },
+  "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/MealCaloriesReport/index.js": {
+    "imports": [],
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "name": "MealCaloriesReport",
+      "usedBy": []
+    }
+  },
+  "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/MealPlanner/components/AddToMeals.js": {
+    "imports": [{
+      "type": "ImportDeclaration",
+      "specifiers": ["Select"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/FormComponents/index.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["Button"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/Button/index.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["FlexWrapper"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/FlexWrapper/index.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["handleAddMeal"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/redux/reducers/foodrecord.js"
+    }],
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/MealPlanner/components/ReportTable.js"]
+    }
+  },
+  "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/MealPlanner/components/FoodsList.js": {
+    "imports": [{
+      "type": "ImportDeclaration",
+      "specifiers": ["ListGroup"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/ListGroup/index.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["Button"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/Button/index.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["Badge"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/Badge/index.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["Well"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/Well/index.js"
+    }],
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/MealPlanner/index.js"]
+    }
+  },
+  "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/MealPlanner/components/ReportTable.js": {
+    "imports": [{
+      "type": "ImportDeclaration",
+      "specifiers": ["Th"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/Th/index.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["ChangeDay"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/ChangeDay/index.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["AddToMeals"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/MealPlanner/components/AddToMeals.js"
+    }],
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/MealPlanner/index.js"]
+    }
+  },
+  "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/MealPlanner/components/RetainedFoodsList.js": {
+    "imports": [{
+      "type": "ImportDeclaration",
+      "specifiers": ["ListGroup"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/ListGroup/index.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["Button"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/Button/index.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["Well"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/Well/index.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["Badge"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/Badge/index.js"
+    }],
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/MealPlanner/index.js"]
+    }
+  },
+  "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/MealPlanner/containers/GoalForm.js": {
+    "imports": [{
+      "type": "ImportDeclaration",
+      "specifiers": ["Input", "Label"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/FormComponents/index.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["FlexWrapper"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/FlexWrapper/index.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["Button"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/Button/index.js"
+    }],
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "name": "GoalForm",
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/MealPlanner/index.js"]
+    }
+  },
+  "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/MealPlanner/containers/SearchForm.js": {
+    "imports": [{
+      "type": "ImportDeclaration",
+      "specifiers": ["Input"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/FormComponents/index.js"
+    }],
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/MealPlanner/index.js"]
+    }
+  },
+  "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/MealPlanner/dispatch.js": {
+    "imports": [{
+      "type": "ImportDeclaration",
+      "specifiers": ["api"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/redux/utils/api.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["ADD_TO_SEARCH_LIST", "RETAIN_FOOD", "REMOVE_FOOD", "CALCULATE_MEAL_SUCCESS"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/app/redux/constants.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["getFactors"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/MealPlanner/utils.js"
+    }],
+    "namedExports": [{
+      "type": "ExportNamedDeclaration",
+      "specifiers": ["searchFood"],
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/MealPlanner/index.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "specifiers": ["retainFood"],
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/MealPlanner/index.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/PublicMeals/index.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "specifiers": ["removeFood"],
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/MealPlanner/index.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "specifiers": ["addToSearchList"],
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/MealPlanner/index.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "specifiers": ["calculateFood"],
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/MealPlanner/index.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "specifiers": ["checkPossibility"],
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/MealPlanner/index.js"]
+    }],
+    "defaultExport": null
+  },
+  "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/MealPlanner/index.js": {
+    "imports": [{
+      "type": "ImportDeclaration",
+      "specifiers": ["Container"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/Container/index.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["Well"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/Well/index.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["debounce"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/redux/utils/debounce.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["searchFood", "retainFood", "removeFood", "calculateFood", "checkPossibility", "addToSearchList"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/MealPlanner/dispatch.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["ReportTable"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/MealPlanner/components/ReportTable.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["FoodsList"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/MealPlanner/components/FoodsList.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["RetainedFoodsList"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/MealPlanner/components/RetainedFoodsList.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["GoalForm"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/MealPlanner/containers/GoalForm.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["SearchForm"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/MealPlanner/containers/SearchForm.js"
+    }],
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/App.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/index.js"]
+    }
+  },
+  "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/MealPlanner/utils.js": {
+    "imports": [],
+    "namedExports": [{
+      "type": "ExportNamedDeclaration",
+      "specifiers": ["getFactors"],
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/MealPlanner/dispatch.js"]
+    }],
+    "defaultExport": null
+  },
+  "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/Nav/components/LinkItem.js": {
+    "imports": [],
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "name": "LinkItem",
+      "usedBy": []
+    }
+  },
+  "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/Nav/dispatch.js": {
+    "imports": [{
+      "type": "ImportDeclaration",
+      "specifiers": ["LOGOUT_SUCCESS"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/app/redux/constants.js"
+    }],
+    "namedExports": [{
+      "type": "ExportNamedDeclaration",
+      "specifiers": ["logout"],
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/Nav/index.js"]
+    }],
+    "defaultExport": null
+  },
+  "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/Nav/index.js": {
+    "imports": [{
+      "type": "ImportDeclaration",
+      "specifiers": ["StyledNav"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/Nav/index.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["FlexWrapperBase"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/FlexWrapper/index.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["Icon"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/Icon/index.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["media"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/theme/media.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["logout"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/Nav/dispatch.js"
+    }],
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/Main.js"]
+    }
+  },
+  "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/PublicMeals/dispatch.js": {
+    "imports": [{
+      "type": "ImportDeclaration",
+      "specifiers": ["api"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/redux/utils/api.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["RECEIVE_MEALS"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/app/redux/constants.js"
+    }],
+    "namedExports": [{
+      "type": "ExportNamedDeclaration",
+      "specifiers": ["getMeals"],
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/PublicMeals/index.js"]
+    }],
+    "defaultExport": null
+  },
+  "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/PublicMeals/index.js": {
+    "imports": [{
+      "type": "ImportDeclaration",
+      "specifiers": ["Panel"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/Panel/index.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["Container"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/Container/index.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["Button"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/Button/index.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["FlexWrapper"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/FlexWrapper/index.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["Input"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/FormComponents/index.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["retainFood"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/MealPlanner/dispatch.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["getMeals"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/PublicMeals/dispatch.js"
+    }],
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/App.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/index.js"]
+    }
+  },
+  "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/SetGoals/components/GoalsReport.js": {
+    "imports": [{
+      "type": "ImportDeclaration",
+      "specifiers": ["Th"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/Th/index.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["MEALS"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/app/redux/constants.js"
+    }],
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "name": "GoalsReport",
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/SetGoals/index.js"]
+    }
+  },
+  "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/SetGoals/dispatch.js": {
+    "imports": [{
+      "type": "ImportDeclaration",
+      "specifiers": ["api"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/redux/utils/api.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["RECEIVE_GOALS"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/app/redux/constants.js"
+    }],
+    "namedExports": [{
+      "type": "ExportNamedDeclaration",
+      "specifiers": ["saveGoals"],
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/SetGoals/index.js"]
+    }],
+    "defaultExport": null
+  },
+  "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/SetGoals/index.js": {
+    "imports": [{
+      "type": "ImportDeclaration",
+      "specifiers": ["FlexWrapper"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/FlexWrapper/index.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["Button"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/Button/index.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["Well"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/Well/index.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["Container"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/Container/index.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["Input", "Select", "Label"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/FormComponents/index.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["OptionGroup"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/OptionGroup/index.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["BMRCalculator"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/BMRCalculator/index.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["saveGoals"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/SetGoals/dispatch.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["GoalsReport"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/SetGoals/components/GoalsReport.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["getGoals"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/SetGoals/utils.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["LeftWrapper", "RightWrapper"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/SetGoals/styled.js"
+    }],
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/App.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/index.js"]
+    }
+  },
+  "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/SetGoals/styled.js": {
+    "imports": [{
+      "type": "ImportDeclaration",
+      "specifiers": ["media"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/theme/media.js"
+    }],
+    "namedExports": [{
+      "type": "ExportNamedDeclaration",
+      "specifiers": ["LeftWrapper"],
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/SetGoals/index.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "specifiers": ["RightWrapper"],
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/SetGoals/index.js"]
+    }],
+    "defaultExport": null
+  },
+  "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/SetGoals/utils.js": {
+    "imports": [],
+    "namedExports": [{
+      "type": "ExportNamedDeclaration",
+      "specifiers": ["determinePCGoals"],
+      "usedBy": []
+    }, {
+      "type": "ExportNamedDeclaration",
+      "specifiers": ["numCount"],
+      "usedBy": []
+    }, {
+      "type": "ExportNamedDeclaration",
+      "specifiers": ["getGoals"],
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/SetGoals/index.js"]
+    }],
+    "defaultExport": null
+  },
+  "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/ShoppingList/AddDay.js": {
+    "imports": [{
+      "type": "ImportDeclaration",
+      "specifiers": ["Button"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/Button/index.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["Icon"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/Icon/index.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["handleAddDay"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/ShoppingList/dispatch.js"
+    }],
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/ShoppingList/Day.js"]
+    }
+  },
+  "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/ShoppingList/Day.js": {
+    "imports": [{
+      "type": "ImportDeclaration",
+      "specifiers": ["Button"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/Button/index.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["Label"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/Label/index.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["ListGroup"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/ListGroup/index.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["H3"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/H3/index.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["FlexWrapper"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/FlexWrapper/index.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["Select", "InputGroup"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/FormComponents/index.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["Icon"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/Icon/index.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["MEALS"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/app/redux/constants.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["removeDay", "recalculateDay"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/ShoppingList/dispatch.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["AddDay"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/ShoppingList/AddDay.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["RowWrapper"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/ShoppingList/styled.js"
+    }],
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/ShoppingList/index.js"]
+    }
+  },
+  "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/ShoppingList/dispatch.js": {
+    "imports": [{
+      "type": "ImportDeclaration",
+      "specifiers": ["api"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/redux/utils/api.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["ADD_DAY", "FETCHING_DAY_MEAL_PLAN", "RECALCULATE_DAY", "REMOVE_DAY", "RECEIVE_FOOD_RECORD"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/app/redux/constants.js"
+    }],
+    "namedExports": [{
+      "type": "ExportNamedDeclaration",
+      "specifiers": ["recalculateDay"],
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/ShoppingList/Day.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/ShoppingList/index.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "specifiers": ["removeDay"],
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/ShoppingList/Day.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/ShoppingList/index.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "specifiers": ["modWeight"],
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/redux/reducers/foodrecord.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "specifiers": ["handleAddDay"],
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/ShoppingList/AddDay.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/ShoppingList/index.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "specifiers": ["addDay"],
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/ShoppingList/index.js"]
+    }],
+    "defaultExport": null
+  },
+  "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/ShoppingList/index.js": {
+    "imports": [{
+      "type": "ImportDeclaration",
+      "specifiers": ["FlexWrapper"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/FlexWrapper/index.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["ChangeDay"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/ChangeDay/index.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["Button"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/Button/index.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["Well"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/Well/index.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["Container"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/Container/index.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["addDay", "removeDay", "recalculateDay", "handleAddDay"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/ShoppingList/dispatch.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["Day"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/ShoppingList/Day.js"
+    }],
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/App.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/index.js"]
+    }
+  },
+  "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/ShoppingList/styled.js": {
+    "imports": [{
+      "type": "ImportDeclaration",
+      "specifiers": ["media"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/theme/media.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["FlexWrapper"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/FlexWrapper/index.js"
+    }],
+    "namedExports": [{
+      "type": "ExportNamedDeclaration",
+      "specifiers": ["RowWrapper"],
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/ShoppingList/Day.js"]
+    }],
+    "defaultExport": null
+  },
+  "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/Signup/containers/SignupForm/index.js": {
+    "imports": [{
+      "type": "ImportDeclaration",
+      "specifiers": ["login"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/Login/dispatch.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["FlexWrapper"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/FlexWrapper/index.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["OptionGroup"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/OptionGroup/index.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["Button"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/Button/index.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["Input", "Label"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/FormComponents/index.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["Wrapper", "MarginWrapper", "FlexInput", "FlexOptGrp"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/Signup/containers/SignupForm/styled.js"
+    }],
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/FrontPage/NavFrontPage.js"]
+    }
+  },
+  "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/Signup/containers/SignupForm/styled.js": {
+    "imports": [{
+      "type": "ImportDeclaration",
+      "specifiers": ["Input"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/FormComponents/index.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["OptionGroup"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/OptionGroup/index.js"
+    }],
+    "namedExports": [{
+      "type": "ExportNamedDeclaration",
+      "specifiers": ["MarginWrapper"],
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/Signup/containers/SignupForm/index.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "specifiers": ["FlexInput"],
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/Signup/containers/SignupForm/index.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "specifiers": ["FlexOptGrp"],
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/Signup/containers/SignupForm/index.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "specifiers": ["Wrapper"],
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/Signup/containers/SignupForm/index.js"]
+    }],
+    "defaultExport": null
+  },
+  "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/Signup/index.js": {
+    "imports": [],
+    "namedExports": [],
+    "defaultExport": null
+  },
+  "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/index.js": {
+    "imports": [{
+      "type": "ImportDeclaration",
+      "specifiers": ["Home"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/Home/index.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["FoodRecord"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/FoodRecord/index.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["MealPlanner"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/MealPlanner/index.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["ShoppingList"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/ShoppingList/index.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["PublicMeals"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/PublicMeals/index.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["Database"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/Database/index.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["List"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/List/index.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["theme"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/theme/index.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["SetGoals"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/SetGoals/index.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["store"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/redux/store.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["Main"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/Main.js"
+    }],
+    "namedExports": [],
+    "defaultExport": null
+  },
+  "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/theme/colors.js": {
+    "imports": [],
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/theme/index.js"]
+    }
+  },
+  "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/theme/index.js": {
+    "imports": [{
+      "type": "ImportDeclaration",
+      "specifiers": ["defColors"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/theme/colors.js"
+    }],
+    "namedExports": [{
+      "type": "ExportNamedDeclaration",
+      "specifiers": ["colors"],
+      "usedBy": []
+    }],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/App.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/colorCSS.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/index.js"]
+    }
+  },
+  "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/theme/media.js": {
+    "imports": [],
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "name": "media",
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/Container/index.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/components/FlexWrapper/index.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/FoodRecord/components/styled.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/Home/MainDash.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/Nav/index.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/SetGoals/styled.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/ShoppingList/styled.js"]
+    }
+  },
+  "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/redux/constants.js": {
+    "imports": [],
+    "namedExports": [{
+      "type": "ExportNamedDeclaration",
+      "specifiers": ["ADD_MEAL"],
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/redux/reducers/foodrecord.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "specifiers": ["CHANGE_DAY"],
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/redux/reducers/root.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "specifiers": ["CONFIRM_RECORD"],
+      "usedBy": []
+    }, {
+      "type": "ExportNamedDeclaration",
+      "specifiers": ["CONFIRM_RECORD_FAIL"],
+      "usedBy": []
+    }, {
+      "type": "ExportNamedDeclaration",
+      "specifiers": ["CONFIRM_RECORD_SUCCESS"],
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/redux/reducers/foodrecord.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "specifiers": ["DISPLAY_MODAL"],
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/redux/reducers/foodrecord.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "specifiers": ["HIDE_MODAL"],
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/redux/reducers/foodrecord.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "specifiers": ["RECEIVE_CALORIES"],
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/redux/reducers/foodrecord.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "specifiers": ["RECEIVE_FOOD_SEARCH_RESULT"],
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/redux/reducers/foodrecord.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "specifiers": ["RECEIVE_FOOD_RECORD"],
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/redux/reducers/foodrecord.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "specifiers": ["RECEIVE_PROGRAMS"],
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/redux/reducers/home.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/redux/reducers/root.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "specifiers": ["RECEIVE_USER"],
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/redux/reducers/home.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/redux/reducers/root.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "specifiers": ["REMOVE_FOOD_RECORD_ITEM"],
+      "usedBy": []
+    }, {
+      "type": "ExportNamedDeclaration",
+      "specifiers": ["REMOVE_FOOD_RECORD_ITEM_SUCCESS"],
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/redux/reducers/foodrecord.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "specifiers": ["UPDATE_RECORD"],
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/redux/reducers/foodrecord.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "specifiers": ["UPDATE_RECORD_QUANTITY"],
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/redux/reducers/foodrecord.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "specifiers": ["INVALID_LOGIN"],
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/redux/reducers/root.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "specifiers": ["LOGIN_SUCCESS"],
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/redux/reducers/root.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "specifiers": ["LOGOUT_SUCCESS"],
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/redux/reducers/root.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "specifiers": ["ADD_TO_SEARCH_LIST"],
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/redux/reducers/mealplanner.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "specifiers": ["CALCULATE_MEAL_ERROR"],
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/redux/reducers/fpdietgenerator.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/redux/reducers/mealplanner.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "specifiers": ["CALCULATE_MEAL_SUCCESS"],
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/redux/reducers/fpdietgenerator.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/redux/reducers/mealplanner.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "specifiers": ["LOAD_SEARCHED_FOODS"],
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/redux/reducers/mealplanner.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "specifiers": ["RETAIN_FOOD"],
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/redux/reducers/mealplanner.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "specifiers": ["REMOVE_FOOD"],
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/redux/reducers/mealplanner.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "specifiers": ["RECEIVE_MEALS"],
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/redux/reducers/meals.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "specifiers": ["GENERATE_FOOD_ERROR"],
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/redux/reducers/fpdietgenerator.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "specifiers": ["GENERATE_FOOD_SUCCESS"],
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/redux/reducers/fpdietgenerator.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "specifiers": ["CREATE_PROGRAM"],
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/redux/reducers/root.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "specifiers": ["DESTROY_MEASUREMENT"],
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/redux/reducers/root.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "specifiers": ["RECEIVE_MEASUREMENTS"],
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/redux/reducers/root.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "specifiers": ["RECEIVE_GOALS"],
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/redux/reducers/root.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "specifiers": ["SAVE_BMR_CALORIES"],
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/redux/reducers/root.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "specifiers": ["ADD_DAY"],
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/redux/reducers/shoppinglist.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "specifiers": ["FETCHING_DAY_MEAL_PLAN"],
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/redux/reducers/shoppinglist.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "specifiers": ["RECALCULATE_DAY"],
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/redux/reducers/shoppinglist.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "specifiers": ["RECEIVE_LIST_ITEMS"],
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/redux/reducers/shoppinglist.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "specifiers": ["REMOVE_DAY"],
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/redux/reducers/shoppinglist.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "specifiers": ["MEALS"],
+      "usedBy": []
+    }],
+    "defaultExport": null
+  },
+  "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/redux/reducers/foodrecord.js": {
+    "imports": [{
+      "type": "ImportDeclaration",
+      "specifiers": ["api"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/redux/utils/api.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["modWeight"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/ShoppingList/dispatch.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["foodRecordCache"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/redux/utils/foodRecordCache.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["ADD_MEAL", "DISPLAY_MODAL", "HIDE_MODAL", "RECEIVE_CALORIES", "RECEIVE_FOOD_SEARCH_RESULT", "RECEIVE_FOOD_RECORD", "UPDATE_RECORD", "REMOVE_FOOD_RECORD_ITEM_SUCCESS", "CONFIRM_RECORD_SUCCESS", "UPDATE_RECORD_QUANTITY"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/redux/constants.js"
+    }],
+    "namedExports": [{
+      "type": "ExportNamedDeclaration",
+      "specifiers": ["handleAddMeal"],
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/MealPlanner/components/AddToMeals.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "specifiers": ["makeMealPublic"],
+      "usedBy": []
+    }],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "name": "foodrecordReducer",
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/redux/reducers/index.js"]
+    }
+  },
+  "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/redux/reducers/fpdietgenerator.js": {
+    "imports": [{
+      "type": "ImportDeclaration",
+      "specifiers": ["api"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/redux/utils/api.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["CALCULATE_MEAL_SUCCESS", "CALCULATE_MEAL_ERROR", "GENERATE_FOOD_SUCCESS", "GENERATE_FOOD_ERROR"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/redux/constants.js"
+    }],
+    "namedExports": [{
+      "type": "ExportNamedDeclaration",
+      "specifiers": ["calculateFood"],
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/FrontPage/InputsSection.js"]
+    }, {
+      "type": "ExportNamedDeclaration",
+      "specifiers": ["generateFood"],
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/FrontPage/InputsSection.js"]
+    }],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "name": "fpdietgeneratorReducer",
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/redux/reducers/index.js"]
+    }
+  },
+  "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/redux/reducers/home.js": {
+    "imports": [{
+      "type": "ImportDeclaration",
+      "specifiers": ["api"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/redux/utils/api.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["RECEIVE_USER", "RECEIVE_PROGRAMS"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/redux/constants.js"
+    }],
+    "namedExports": [{
+      "type": "ExportNamedDeclaration",
+      "specifiers": ["fetchUserInfo"],
+      "usedBy": []
+    }, {
+      "type": "ExportNamedDeclaration",
+      "specifiers": ["fetchPrograms"],
+      "usedBy": []
+    }],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "name": "homeReducer",
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/redux/reducers/index.js"]
+    }
+  },
+  "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/redux/reducers/index.js": {
+    "imports": [{
+      "type": "ImportDeclaration",
+      "specifiers": ["home"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/redux/reducers/home.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["rootReducer"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/redux/reducers/root.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["foodrecord"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/redux/reducers/foodrecord.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["mealplanner"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/redux/reducers/mealplanner.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["shoppinglist"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/redux/reducers/shoppinglist.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["meals"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/redux/reducers/meals.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["fpdietgenerator"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/redux/reducers/fpdietgenerator.js"
+    }],
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/redux/store.js"]
+    }
+  },
+  "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/redux/reducers/mealplanner.js": {
+    "imports": [{
+      "type": "ImportDeclaration",
+      "specifiers": ["CALCULATE_MEAL_ERROR", "CALCULATE_MEAL_SUCCESS", "LOAD_SEARCHED_FOODS", "REMOVE_FOOD", "RETAIN_FOOD", "ADD_TO_SEARCH_LIST"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/redux/constants.js"
+    }],
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "name": "mealplannerReducer",
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/redux/reducers/index.js"]
+    }
+  },
+  "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/redux/reducers/meals.js": {
+    "imports": [{
+      "type": "ImportDeclaration",
+      "specifiers": ["RECEIVE_MEALS"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/redux/constants.js"
+    }],
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "name": "mealsReducer",
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/redux/reducers/index.js"]
+    }
+  },
+  "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/redux/reducers/root.js": {
+    "imports": [{
+      "type": "ImportDeclaration",
+      "specifiers": ["api"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/redux/utils/api.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["CHANGE_DAY", "CREATE_PROGRAM", "DESTROY_MEASUREMENT", "LOGIN_SUCCESS", "LOGOUT_SUCCESS", "INVALID_LOGIN", "RECEIVE_GOALS", "RECEIVE_MEASUREMENTS", "RECEIVE_PROGRAMS", "RECEIVE_USER", "SAVE_BMR_CALORIES"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/redux/constants.js"
+    }],
+    "namedExports": [{
+      "type": "ExportNamedDeclaration",
+      "specifiers": ["createUser"],
+      "usedBy": []
+    }, {
+      "type": "ExportNamedDeclaration",
+      "specifiers": ["createProgram"],
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/BMRCalculator/dispatch.js"]
+    }],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "name": "rootReducer",
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/redux/reducers/index.js"]
+    }
+  },
+  "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/redux/reducers/shoppinglist.js": {
+    "imports": [{
+      "type": "ImportDeclaration",
+      "specifiers": ["ADD_DAY", "FETCHING_DAY_MEAL_PLAN", "REMOVE_DAY", "RECALCULATE_DAY", "RECEIVE_LIST_ITEMS"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/redux/constants.js"
+    }],
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "name": "shoppinglistReducer",
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/redux/reducers/index.js"]
+    }
+  },
+  "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/redux/store.js": {
+    "imports": [{
+      "type": "ImportDeclaration",
+      "specifiers": ["fetchFoodRecord"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/FoodRecord/dispatch.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["getCalories"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/Home/dispatch.js"
+    }, {
+      "type": "ImportDeclaration",
+      "specifiers": ["reducer"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/redux/reducers/index.js"
+    }],
+    "namedExports": [{
+      "type": "ExportNamedDeclaration",
+      "specifiers": ["token"],
+      "usedBy": []
+    }],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "name": "store",
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/index.js"]
+    }
+  },
+  "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/redux/utils/api.js": {
+    "imports": [{
+      "type": "ImportDeclaration",
+      "specifiers": ["getToken"],
+      "source": "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/redux/utils/getToken.js"
+    }],
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "name": "apiClient",
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/BMRCalculator/dispatch.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/FoodRecord/dispatch.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/Home/dispatch.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/List/dispatch.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/Login/dispatch.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/MealPlanner/dispatch.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/PublicMeals/dispatch.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/SetGoals/dispatch.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/ShoppingList/dispatch.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/redux/reducers/foodrecord.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/redux/reducers/fpdietgenerator.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/redux/reducers/home.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/redux/reducers/root.js"]
+    }
+  },
+  "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/redux/utils/caloriesCache.js": {
+    "imports": [],
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "name": "caloriesCache",
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/Home/dispatch.js"]
+    }
+  },
+  "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/redux/utils/cookie.js": {
+    "imports": [],
+    "namedExports": [{
+      "type": "ExportNamedDeclaration",
+      "specifiers": ["getCookie"],
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/Main.js"]
+    }],
+    "defaultExport": null
+  },
+  "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/redux/utils/debounce.js": {
+    "imports": [],
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "name": "debounce",
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/Database/containers/AddForm.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/Home/dispatch.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/MealPlanner/index.js"]
+    }
+  },
+  "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/redux/utils/foodRecordCache.js": {
+    "imports": [],
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "name": "foodRecordCache",
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/FoodRecord/dispatch.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/redux/reducers/foodrecord.js"]
+    }
+  },
+  "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/redux/utils/getToken.js": {
+    "imports": [],
+    "namedExports": [],
+    "defaultExport": {
+      "type": "ExportDefaultDeclaration",
+      "name": "getToken",
+      "usedBy": ["/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/Main.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/react/containers/Login/dispatch.js", "/home/richard/Documents/fullstack_academy/senior/knowyourmacros/browser/redux/utils/api.js"]
+    }
+  }
+}
